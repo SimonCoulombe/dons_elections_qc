@@ -145,7 +145,9 @@ tweetable_text <- aa %>%
   paste(collapse = "\n")
 
 # Print the tweetable_text
-cat(tweetable_text)
+
+# Print the tweetable_text
+mytweet <- paste0(max(aa$date_cumulatif), "\n", tweetable_text)
 post_tweet(status =  tweetable_text)
 
 if (http_status(response)$category == "Success") {

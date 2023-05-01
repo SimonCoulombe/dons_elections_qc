@@ -16,6 +16,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         token: ${{ secrets.MYGITHUBPAT }}
+        persist-credentials: false
 
     - name: Download and rename CSV
       run: Rscript download_and_rename.R
@@ -26,4 +27,4 @@ jobs:
         git config --global user.name "simon coulombe"
         git add data/*
         git commit -m "Update contributions-pro-fr.csv"
-        git push
+        git push origin HEAD:master

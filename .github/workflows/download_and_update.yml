@@ -9,8 +9,8 @@ jobs:
   download_and_commit:
     runs-on: ubuntu-latest
     container: 
-      image: rocker/tidyverse:4.3.0
-    #image: morglum/dons_elections
+      #image: rocker/tidyverse:4.3.0
+      image: morglum/dons_elections
 
     steps:
     # - name: Set up R

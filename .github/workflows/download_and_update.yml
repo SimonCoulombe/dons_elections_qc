@@ -3,6 +3,7 @@ name: Download and update contributions-pro-fr.csv
 on:
   schedule:
     - cron: '0 0 * * *'
+  workflow_dispatch:    
 
 jobs:
   download_and_commit:
@@ -24,8 +25,8 @@ jobs:
 
     - name: Commit changes
       run: |
-        git config --local user.email "<YOUR_EMAIL>"
-        git config --local user.name "<YOUR_NAME>"
+        git config --local user.email "simoncoulombe@protonmail.com"
+        git config --local user.name "simon coulombe"
         git add data/*
         git commit -m "Update contributions-pro-fr.csv"
         git push

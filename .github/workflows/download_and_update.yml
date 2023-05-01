@@ -34,6 +34,7 @@ jobs:
       run: |
         git config --global user.email "simoncoulombe@gmail.com"
         git config --global user.name "simon coulombe"
+        git remote set-url origin "https://x-access-token:${{ secrets.MYGITHUBPAT }}@github.com/SimonCoulombe/dons_elections_qc.git"
         git add data/*
         git commit -m "Automated update of contributions-pro-fr.csv"
         git push origin HEAD:master

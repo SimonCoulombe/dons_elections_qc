@@ -110,7 +110,7 @@ myplot <- cumulatifs_quotidiens %>%
   geom_point() + 
   scale_colour_manual(values = couleurs_parti_prov)
 
-ggsave("myplot.png", myplot)
+ggsave("data/myplot.png", myplot, width= 10, height = 8, units ="in")
 
 if (http_status(response)$category == "Success") {
   cat("File downloaded and saved as", dest_file, "\n")

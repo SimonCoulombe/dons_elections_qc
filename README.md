@@ -4,4 +4,4 @@ This repository contains a script to download and update the contributions-pro-f
 
 ## Usage
 
-![alt text](https://github.com/simoncoulombe/dons_elections_qc/blob/master/myplot.png?raw=true)
+![alt text](https://github.com/simoncoulombe/dons_elections_qc/blob/master/data/myplot.png?raw=true)

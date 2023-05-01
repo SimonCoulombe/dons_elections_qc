@@ -8,10 +8,17 @@ on:
 jobs:
   download_and_commit:
     runs-on: ubuntu-latest
-    container:
-      image: docker://morglum/dons_elections:latest
 
     steps:
+    - name: Set up R
+      uses: r-lib/actions/setup-r@v1
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
+        Rscript -e 'install.packages(c("httr", "lubridate"))'
+
     - name: Checkout repository
       uses: actions/checkout@v2
       with:

@@ -114,28 +114,4 @@ for (i in todo){
   generate_cumulatif(i)
 }
 
-# 
-# 
-# # Create a pretty ggplot
-# myplot <- cumulatifs_quotidiens %>%
-#   ggplot(aes(x = date_cumulatif, y = montant_cumulatif, color = entite_politique)) +
-#   geom_line(size = 1) +
-#   scale_y_continuous(limits = c(0, max(cumulatifs_quotidiens$montant_cumulatif))) +
-#   scale_colour_manual(values = couleurs_parti_prov) +
-#   labs(title = "Cumulatif annuel des dons",
-#        x = "Date",
-#        y = "Cumulatif annuel",
-#        color = "Parti") +
-#   theme_minimal() +
-#   theme(
-#     plot.title = element_text(size = 18, face = "bold", hjust = 0.5),
-#     axis.title = element_text(size = 14, face = "bold"),
-#     axis.text = element_text(size = 12),
-#     legend.title = element_text(size = 14, face = "bold"),
-#     legend.text = element_text(size = 12)
-#   )
-# 
-# 
-# ggsave("data/myplot.png", myplot, width= 10, height = 8, units ="in")
-
 

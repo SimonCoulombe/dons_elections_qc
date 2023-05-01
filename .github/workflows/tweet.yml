@@ -2,11 +2,11 @@ name: generate cumulatifs
 
 on:
   schedule:
-    - cron: '5 8 * * *'
+    - cron: '10 8 * * *'
   workflow_dispatch:
 
 jobs:
-  generate_cumulatifs:
+  tweet:
     runs-on: ubuntu-latest
     container: 
       image: morglum/dons_elections
@@ -26,8 +26,8 @@ jobs:
     - name: Update repository ownership
       run: chown -R $(whoami) . || true
 
-    - name: generate all missing cumulatifs
-      run: Rscript generate_cumulatifs.R
+    - name: tweet
+      run: Rscript tweet.R
 
     - name: Commit changes
       run: |

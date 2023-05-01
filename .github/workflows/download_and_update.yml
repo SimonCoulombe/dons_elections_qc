@@ -19,7 +19,7 @@ jobs:
         persist-credentials: false
 
     - name: Update repository ownership
-      run: sudo chown -R $(whoami) .
+      run: chown -R $(whoami) . || true
 
     - name: Download and rename CSV
       run: Rscript download_and_rename.R

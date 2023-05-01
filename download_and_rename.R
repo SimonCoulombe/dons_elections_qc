@@ -148,10 +148,7 @@ tweetable_text <- aa %>%
 
 # Print the tweetable_text
 mytweet <- paste0(max(aa$date_cumulatif), "\n", tweetable_text)
-post_tweet(status =  mytweet, 
-           media = c(
-             "data/myplot.png"
-           ))
+post_tweet(status =  mytweet, media = c("data/myplot.png"), media_alt_text = c(""))
 
 if (http_status(response)$category == "Success") {
   cat("File downloaded and saved as", dest_file, "\n")

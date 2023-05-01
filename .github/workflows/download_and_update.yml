@@ -3,7 +3,7 @@ name: Download and update contributions-pro-fr.csv
 on:
   schedule:
     - cron: '0 0 * * *'
-  workflow_dispatch:    
+  workflow_dispatch:
 
 jobs:
   download_and_commit:
@@ -14,19 +14,16 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-
-#    - name: Set up R environment
-#      run: |
-#        Rscript -e 'install.packages("httr")'
-#        Rscript -e 'install.packages("lubridate")'
+      with:
+        token: ${{ secrets.MYGITHUBPAT }}
 
     - name: Download and rename CSV
       run: Rscript download_and_rename.R
 
     - name: Commit changes
       run: |
-        git config --local user.email "simoncoulombe@protonmail.com"
-        git config --local user.name "simon coulombe"
+        git config --global user.email "simoncoulombe@protonmail.com"
+        git config --global user.name "simon coulombe"
         git add data/*
         git commit -m "Update contributions-pro-fr.csv"
         git push

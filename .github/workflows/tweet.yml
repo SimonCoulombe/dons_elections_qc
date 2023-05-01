@@ -1,4 +1,4 @@
-name: generate cumulatifs
+name: generate tweet et myplot.png
 
 on:
   schedule:

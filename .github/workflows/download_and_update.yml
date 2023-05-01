@@ -22,7 +22,7 @@ jobs:
 
     - name: Commit changes
       run: |
-        git config --global user.email "simoncoulombe@protonmail.com"
+        git config --global user.email "simoncoulombe@gmail.com"
         git config --global user.name "simon coulombe"
         git add data/*
         git commit -m "Update contributions-pro-fr.csv"

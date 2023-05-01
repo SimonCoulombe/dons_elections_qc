@@ -10,5 +10,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN R -e 'install.packages(c("httr", "lubridate", "dplyr", "stringr", "janitor"))'
 RUN R -e 'install.packages(c("readr"))'
+RUN R -e 'install.packages(c("purrr"))'
+RUN R -e 'install.packages(c("ggplot2"))'
 
 CMD ["/bin/bash"]

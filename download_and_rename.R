@@ -4,6 +4,24 @@ library(dplyr)
 library(janitor)
 library(stringr)
 library(readr)
+library(purrr)
+library(ggplot2)
+ggplot2::theme_set(theme_minimal()) # this ggplot2 theme uses roboto condensed font, which works well with the font used for the whole document.
+options(ggplot2.discrete.fill  = function() scale_fill_viridis_d() )
+options(ggplot2.continuous.fill  = function() scale_fill_viridis_c())
+options(ggplot2.discrete.colour = function() scale_color_viridis_d())
+options(ggplot2.continuous.colour = function() scale_color_viridis_c())
+options(scipen=999)
+couleurs_parti_prov <- c(
+  "Québec solidaire"= "#FF8040",
+  "Parti québécois" = "#004C9D",
+  "Coalition avenir Québec" = "#1E90FF",
+  "Parti conservateur du Québec"=   "#7B5804" , # "#6495ED",
+  "Parti libéral du Québec" = "red", # "#F08080",
+  "Québec solidaire" = "#FF8040"#,
+  #"autre" = "#DCDCDC"
+  
+)
 
 url <- "https://donnees.electionsquebec.qc.ca/production/provincial/financement/contribution/contributions-pro-fr.csv"
 dest_file <- paste0("data/", Sys.Date(), "contributions-pro-fr.csv")
@@ -78,6 +96,21 @@ cumulatif_circ <-   wrangled_file %>%
 write_csv(cumulatif, cumulatif_path)
 write_csv(cumulatif_circ, cumulatif_circ_path)
 
+list_cumulatifs <- list.files("data/", pattern= "*cumulatif.csv")
+cumulatifs_quotidiens <- dplyr::bind_rows(purrr::map(list_cumulatifs,   ~readr::read_csv(paste0("data/",.x))))
+write_csv(cumulatifs_quotidiens, "data/cumulatif_quotidiens.csv")
+
+
+list_cumulatifs_circ <- list.files("data/", pattern= "*cumulatif_circ.csv")
+cumulatifs_circ_quotidiens <- dplyr::bind_rows(purrr::map(list_cumulatifs_circ,   ~readr::read_csv(paste0("data/",.x))))
+write_csv(cumulatifs_circ_quotidiens, "data/cumulatifs_circ_quotidiens.csv")
+
+myplot <- cumulatifs_quotidiens %>% 
+  ggplot(aes(x= date_cumulatif, y= montant_cumulatif, color = entite_politique)) + 
+  geom_point() + 
+  scale_colour_manual(values = couleurs_parti_prov)
+
+ggsave("myplot.png", myplot)
 
 if (http_status(response)$category == "Success") {
   cat("File downloaded and saved as", dest_file, "\n")

@@ -104,7 +104,7 @@ myplot <- cumulatif_quotidiens %>%
   )
 
  
-ggsave("data/myplot.png", myplot, width= 10, height = 8, units ="in")
+ggsave("data/myplot.png", myplot, width= 10, height = 8, units ="in", bg = "white")
 
 post_tweet(status =  mytweet,
            media = c("data/myplot.png"),

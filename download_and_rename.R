@@ -3,6 +3,7 @@ library(lubridate)
 library(dplyr)
 library(janitor)
 library(stringr)
+library(readr)
 
 url <- "https://donnees.electionsquebec.qc.ca/production/provincial/financement/contribution/contributions-pro-fr.csv"
 dest_file <- paste0("data/", Sys.Date(), "contributions-pro-fr.csv")

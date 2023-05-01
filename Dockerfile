@@ -8,6 +8,6 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-RUN R -e 'install.packages(c("httr", "lubridate"))'
+RUN R -e 'install.packages(c("httr", "lubridate", "dplyr", "stringr", "janitor"))'
 
 CMD ["/bin/bash"]

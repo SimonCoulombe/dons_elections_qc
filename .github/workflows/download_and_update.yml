@@ -2,7 +2,7 @@ name: Download and update contributions-pro-fr.csv
 
 on:
   schedule:
-    - cron: ' 8 * * *'
+    - cron: '0 8 * * *'
   workflow_dispatch:
 
 jobs:

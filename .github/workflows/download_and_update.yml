@@ -11,10 +11,10 @@ jobs:
     container: 
       image: morglum/dons_elections
     env:
-      perroquetdejeff_api_key = ${{ secrets.perroquetdejeff_api_key }}
-      perroquetdejeff_api_secret_key = ${{ secrets.perroquetdejeff_api_secret_key }}
-      perroquetdejeff_access_token = ${{ secrets.perroquetdejeff_access_token }}
-      perroquetdejeff_access_token_secret = ${{ secrets.perroquetdejeff_access_token_secret }}
+      perroquetdejeff_api_key: ${{ secrets.perroquetdejeff_api_key }}
+      perroquetdejeff_api_secret_key: ${{ secrets.perroquetdejeff_api_secret_key }}
+      perroquetdejeff_access_token: ${{ secrets.perroquetdejeff_access_token }}
+      perroquetdejeff_access_token_secret: ${{ secrets.perroquetdejeff_access_token_secret }}
 
     steps:
     - name: Checkout repository

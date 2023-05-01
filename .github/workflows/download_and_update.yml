@@ -8,20 +8,20 @@ on:
 jobs:
   download_and_commit:
     runs-on: ubuntu-latest
-    container: 
-      image: morglum/dons_elections
+    # container: 
+    #   image: morglum/dons_elections
 
     steps:
-    # - name: Set up R
-    #   uses: r-lib/actions/setup-r@v2
-    #   with:
-    #     r-version: '4.1.3'
-    # 
-    # - name: Install dependencies
-    #   run: |
-    #     sudo apt-get update
-    #     sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
-    #     Rscript -e 'install.packages(c("httr", "lubridate", "dplyr", "janitor", "stringr"))'
+    - name: Set up R
+      uses: r-lib/actions/setup-r@v2
+      with:
+        r-version: '4.1.3'
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
+        Rscript -e 'install.packages(c("httr", "lubridate", "dplyr", "janitor", "stringr", "readr"))'
 
     - name: Checkout repository
       uses: actions/checkout@v2
@@ -37,7 +37,6 @@ jobs:
         git config --global user.email "simoncoulombe@gmail.com"
         git config --global user.name "simon coulombe"
         git remote set-url origin "https://x-access-token:${{ secrets.MYGITHUBPAT }}@github.com/SimonCoulombe/dons_elections_qc.git"
-        git config --global --add safe.directory /__w/dons_elections_qc/dons_elections_qc
         git add data/*
         git commit -m "Automated update of contributions-pro-fr.csv"
         git push origin HEAD:master

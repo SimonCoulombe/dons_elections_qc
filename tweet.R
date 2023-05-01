@@ -41,7 +41,7 @@ download.file("https://raw.githubusercontent.com/SimonCoulombe/dons_elections_qc
 cumulatif_quotidiens <- read_csv(mytempfile)
 
 date_last <- max(cumulatif_quotidiens$date_cumulatif)
-data_last <- cumulatif_quotidiens  %>% filter(date_cumulatif == date_last)
+latest_data <- cumulatif_quotidiens  %>% filter(date_cumulatif == date_last)
 
 data_hier <-  cumulatif_quotidiens  %>% 
   filter(date_cumulatif != date_last) %>%

@@ -70,13 +70,14 @@ tweetable_text <- all_data %>%
   arrange(desc(montant_cumulatif)) %>% 
   mutate_all(as.character) %>%
   #mutate_all(str_wrap, width = 20) %>%
-  glue_data("{entite_politique}  {montant_cumulatif}$, ({diff_hier} / {diff_lastweek})") %>%
+  glue_data("{entite_politique}  {montant_cumulatif}$ ({diff_hier} / {diff_lastweek})") %>%
   paste(collapse = "\n")
 
 # Print the tweetable_text
 
 # Print the tweetable_text
-mytweet <- paste0("Cumulatif ", date_last," (différence ",jours_hier, " jour/", jours_lastweek, "jours)"   , "\n", 
+mytweet <- paste0("Cumulatif ", date_last," (différence ",jours_hier, " jour/", jours_lastweek, "jours)"   ,
+                  "\n\n", 
                   tweetable_text)
 
 

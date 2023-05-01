@@ -110,10 +110,8 @@ generate_cumulatif <- function(mydate){
 
 
 for (i in todo){
-  tictoc::tic()
   print(i)
   generate_cumulatif(i)
-  tictoc::toc()
 }
 
 # 

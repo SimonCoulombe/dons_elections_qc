@@ -2,7 +2,7 @@ name: Download and update contributions-pro-fr.csv
 
 on:
   schedule:
-    - cron: '0 23 * * *'
+    - cron: '15 23 * * *'
   workflow_dispatch:
 
 jobs:
@@ -27,7 +27,7 @@ jobs:
       run: chown -R $(whoami) . || true
 
     - name: Download and rename CSV
-      run: Rscript download_and_rename.R
+      run: Rscript generate_cumulatifs.R
 
     - name: Commit changes
       run: |
@@ -35,5 +35,5 @@ jobs:
         git config --global user.name "simon coulombe"
         git remote set-url origin "https://x-access-token:${{ secrets.MYGITHUBPAT }}@github.com/SimonCoulombe/dons_elections_qc.git"
         git add data/*
-        git commit -m "Automated update of contributions-pro-fr.csv"
+        git commit -m "Automated update of cumulatifs.csv"
         git push origin HEAD:master

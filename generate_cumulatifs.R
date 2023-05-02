@@ -25,6 +25,7 @@ dates_cumulatif_files <- cumulatif_files %>% str_extract("\\d\\d\\d\\d-\\d\\d-\\
 todo <- dates_contributions_files[!dates_contributions_files %in%  dates_cumulatif_files]
 
 generate_cumulatif <- function(mydate){
+  print(mydate)
   
   dest_file <- paste0("data/", mydate, "contributions-pro-fr.csv")
   

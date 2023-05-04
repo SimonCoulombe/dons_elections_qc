@@ -2,7 +2,7 @@ name: generate cumulatifs
 
 on:
   schedule:
-    - cron: '5 12 * * *'
+    - cron: '30 12 * * *'
   workflow_dispatch:
 
 jobs:

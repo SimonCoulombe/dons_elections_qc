@@ -1,0 +1,25 @@
+
+```{r}
+library(readr)
+library(dplyr)
+library(here)
+library(lubridate)
+library(gt)
+df20230504 <- read_csv(here::here("data/2023-05-04_cumulatif_circ.csv"))
+df20230503 <- read_csv(here::here("data/2023-05-03_cumulatif_circ.csv"))
+
+
+```
+```{r}
+z <- df20230504 %>% mutate(date= ymd("20230504")) %>%
+  bind_rows(df20230503 %>% mutate(date= ymd("20230503"))) %>% 
+  group_by(entite_politique, nm_circ) %>%
+  arrange(entite_politique,  nm_circ, date) %>% 
+  mutate(diff_hier = montant_cumulatif  - lag(montant_cumulatif)) %>% 
+  ungroup() %>%
+  filter(date == max(date)) %>% 
+  arrange(desc(diff_hier))
+
+knitr::kable(z)
+```
+

@@ -8,7 +8,6 @@ library(purrr)
 library(ggplot2)
 
 
-
 contributions_files <- list.files(
   "data/",
   pattern = "\\d\\d\\d\\d-\\d\\d-\\d\\dcontributions-pro-fr.csv"
@@ -50,8 +49,6 @@ generate_cumulatif <- function(mydate){
   
   code_postal_to_circ_slice1 <- code_postal_to_circ %>%  group_by(code_postal) %>% slice(1) %>%  ungroup()
   
-  
-  
   contributions <- contributions_raw %>% 
     mutate(
       annee_financiere = as.numeric(annee_financiere),
@@ -82,6 +79,41 @@ generate_cumulatif <- function(mydate){
     distinct() %>%
     mutate(ancien_donateur = 1)
   
+  # chasse aux transfuges depuis l'an passé
+  # un transfuge est quelqu un qui donne a un seul parti cette annee 
+  # et un seul l an passé
+  # mais pas le même 
+  last2years_1partimax <- wrangled_file %>% 
+    filter(annee_financiere>= max(annee_financiere)- 1) %>%
+    group_by(nom_prenom, code_postal, annee_financiere) %>%
+    filter(n() == 1) %>% 
+    ungroup()
+  
+  transfuges <-  last2years_1partimax %>% 
+    filter(annee_financiere== max(annee_financiere)) %>%
+    select(nom_prenom, entite_politique, code_postal, annee_financiere) %>%
+    inner_join(# deja vu quelque part l an passé
+      last2years_1partimax %>% 
+        filter(annee_financiere == (max(annee_financiere)-1 )) %>% 
+        select(nom_prenom,  code_postal) %>% 
+        distinct() 
+    ) %>% #mais pas chez nous
+    anti_join(
+      last2years_1partimax %>% 
+        filter(annee_financiere == (max(annee_financiere))-1) %>% 
+        select(nom_prenom,  code_postal,entite_politique) %>% 
+        distinct() 
+    )
+  
+  transfuges %>% 
+    left_join(
+      last2years_1partimax %>% 
+        filter(annee_financiere == max(annee_financiere)-1 ) %>%
+        select(nom_prenom, code_postal, parti_origine = entite_politique)
+    ) %>% 
+    count(entite_politique, parti_origine)
+  
+  
   cumulatif <- 
     wrangled_file %>% 
     filter(annee_financiere>= 2023) %>% 
@@ -103,6 +135,7 @@ generate_cumulatif <- function(mydate){
   cumulatif_circ <-   wrangled_file %>% 
     filter(annee_financiere>= 2023) %>% 
     left_join(anciens_donateurs) %>%    
+    mutate(ancien_donateur = as.numeric(!is.na(ancien_donateur))) %>%
     group_by(entite_politique, annee_financiere,  co_circ, nm_circ) %>% 
     summarise(montant_cumulatif = sum(montant_total), 
               donateurs = n(), 
@@ -120,15 +153,27 @@ generate_cumulatif <- function(mydate){
   write_csv(cumulatif_circ, cumulatif_circ_path)
   
   list_cumulatifs <- list.files("data/", pattern= "*cumulatif.csv")
+  
   cumulatifs_quotidiens <- 
     dplyr::bind_rows(purrr::map(list_cumulatifs,   ~readr::read_csv(paste0("data/",.x)))) %>%
+    group_by(entite_politique) %>%
+    arrange(entite_politique, date_cumulatif) %>% 
+    mutate(diff_hier = if_else(lag(date_cumulatif) == date_cumulatif-1,montant_cumulatif  - lag(montant_cumulatif), NA_real_, NA_real_)) %>% 
+    mutate(diff_semaine = if_else(lag(date_cumulatif, 7L) == date_cumulatif-7,montant_cumulatif  - lag(montant_cumulatif, 7L), NA_real_, NA_real_)) %>% 
+    ungroup() %>%
     arrange(desc(date_cumulatif), entite_politique)
   write_csv(cumulatifs_quotidiens, "data/cumulatif_quotidiens.csv")
   
   
   list_cumulatifs_circ <- list.files("data/", pattern= "*cumulatif_circ.csv")
+  
   cumulatifs_circ_quotidiens <- 
     dplyr::bind_rows(purrr::map(list_cumulatifs_circ,   ~readr::read_csv(paste0("data/",.x))))%>%
+    group_by(entite_politique, nm_circ) %>%
+    arrange(entite_politique,  nm_circ, date_cumulatif) %>% 
+    mutate(diff_hier = if_else(lag(date_cumulatif) == date_cumulatif-1,montant_cumulatif  - lag(montant_cumulatif), NA_real_, NA_real_)) %>% 
+    mutate(diff_semaine = if_else(lag(date_cumulatif, 7L) == date_cumulatif-7,montant_cumulatif  - lag(montant_cumulatif, 7L), NA_real_, NA_real_)) %>% 
+    ungroup() %>%
     arrange(desc(date_cumulatif), entite_politique)
   write_csv(cumulatifs_circ_quotidiens, "data/cumulatifs_circ_quotidiens.csv")
   
@@ -142,4 +187,6 @@ for (i in todo){
   generate_cumulatif(i)
 }
 
-
+if(length(todo) > 1){
+  
+}

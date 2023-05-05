@@ -1,31 +1,36 @@
-entite_politique,annee_financiere,montant_cumulatif,date_cumulatif
-Coalition avenir Québec,2023,236944.34,2023-05-04
-Parti conservateur du Québec,2023,20253.41,2023-05-04
-Parti libéral du Québec,2023,49632.25,2023-05-04
-Parti québécois,2023,263902.59,2023-05-04
-Québec solidaire,2023,84117.4,2023-05-04
-Coalition avenir Québec,2023,225009.34,2023-05-03
-Parti conservateur du Québec,2023,20253.41,2023-05-03
-Parti libéral du Québec,2023,47992.25,2023-05-03
-Parti québécois,2023,259732.59,2023-05-03
-Québec solidaire,2023,84017.4,2023-05-03
-Coalition avenir Québec,2023,221764.34,2023-05-02
-Parti conservateur du Québec,2023,19703.41,2023-05-02
-Parti libéral du Québec,2023,47572.25,2023-05-02
-Parti québécois,2023,258357.59,2023-05-02
-Québec solidaire,2023,83917.4,2023-05-02
-Coalition avenir Québec,2023,220414.34,2023-05-01
-Parti conservateur du Québec,2023,19507.41,2023-05-01
-Parti libéral du Québec,2023,47412.25,2023-05-01
-Parti québécois,2023,256012.59,2023-05-01
-Québec solidaire,2023,83887.4,2023-05-01
-Coalition avenir Québec,2023,219397.34,2023-04-30
-Parti conservateur du Québec,2023,19507.41,2023-04-30
-Parti libéral du Québec,2023,47103.95,2023-04-30
-Parti québécois,2023,254904.26,2023-04-30
-Québec solidaire,2023,83719.09,2023-04-30
-Coalition avenir Québec,2023,217596.57,2023-04-27
-Parti conservateur du Québec,2023,19504.45,2023-04-27
-Parti libéral du Québec,2023,46343.95,2023-04-27
-Parti québécois,2023,253564.26,2023-04-27
-Québec solidaire,2023,83400.78,2023-04-27
+entite_politique,annee_financiere,montant_cumulatif,date_cumulatif,donateurs,anciens_donateurs,nouveaux_donateurs,cumulatif_anciens,cumulatif_nouveaux,pct_nouveaux_donateurs,pct_cumulatif_nouveaux
+Coalition avenir Québec,2023,239219.34,2023-05-05,2763,2140,623,188865,50354.34,0.22547955121245025,0.21049443577597027
+Parti conservateur du Québec,2023,20353.41,2023-05-05,266,202,64,16009.18,4344.23,0.24060150375939848,0.21343991006912352
+Parti libéral du Québec,2023,51127.25,2023-05-05,633,487,146,39471.25,11656,0.23064770932069512,0.22798018669105027
+Parti québécois,2023,266727.59,2023-05-05,3491,2952,539,232132.09,34595.5,0.15439702091091378,0.12970349261581823
+Québec solidaire,2023,84234.06,2023-05-05,1172,1004,168,72695.01,11539.05,0.14334470989761092,0.13698793575900295
+Coalition avenir Québec,2023,236944.34,2023-05-04,NA,NA,NA,NA,NA,NA,NA
+Parti conservateur du Québec,2023,20253.41,2023-05-04,NA,NA,NA,NA,NA,NA,NA
+Parti libéral du Québec,2023,49632.25,2023-05-04,NA,NA,NA,NA,NA,NA,NA
+Parti québécois,2023,263902.59,2023-05-04,NA,NA,NA,NA,NA,NA,NA
+Québec solidaire,2023,84117.4,2023-05-04,NA,NA,NA,NA,NA,NA,NA
+Coalition avenir Québec,2023,225009.34,2023-05-03,NA,NA,NA,NA,NA,NA,NA
+Parti conservateur du Québec,2023,20253.41,2023-05-03,NA,NA,NA,NA,NA,NA,NA
+Parti libéral du Québec,2023,47992.25,2023-05-03,NA,NA,NA,NA,NA,NA,NA
+Parti québécois,2023,259732.59,2023-05-03,NA,NA,NA,NA,NA,NA,NA
+Québec solidaire,2023,84017.4,2023-05-03,NA,NA,NA,NA,NA,NA,NA
+Coalition avenir Québec,2023,221764.34,2023-05-02,NA,NA,NA,NA,NA,NA,NA
+Parti conservateur du Québec,2023,19703.41,2023-05-02,NA,NA,NA,NA,NA,NA,NA
+Parti libéral du Québec,2023,47572.25,2023-05-02,NA,NA,NA,NA,NA,NA,NA
+Parti québécois,2023,258357.59,2023-05-02,NA,NA,NA,NA,NA,NA,NA
+Québec solidaire,2023,83917.4,2023-05-02,NA,NA,NA,NA,NA,NA,NA
+Coalition avenir Québec,2023,220414.34,2023-05-01,NA,NA,NA,NA,NA,NA,NA
+Parti conservateur du Québec,2023,19507.41,2023-05-01,NA,NA,NA,NA,NA,NA,NA
+Parti libéral du Québec,2023,47412.25,2023-05-01,NA,NA,NA,NA,NA,NA,NA
+Parti québécois,2023,256012.59,2023-05-01,NA,NA,NA,NA,NA,NA,NA
+Québec solidaire,2023,83887.4,2023-05-01,NA,NA,NA,NA,NA,NA,NA
+Coalition avenir Québec,2023,219397.34,2023-04-30,NA,NA,NA,NA,NA,NA,NA
+Parti conservateur du Québec,2023,19507.41,2023-04-30,NA,NA,NA,NA,NA,NA,NA
+Parti libéral du Québec,2023,47103.95,2023-04-30,NA,NA,NA,NA,NA,NA,NA
+Parti québécois,2023,254904.26,2023-04-30,NA,NA,NA,NA,NA,NA,NA
+Québec solidaire,2023,83719.09,2023-04-30,NA,NA,NA,NA,NA,NA,NA
+Coalition avenir Québec,2023,217596.57,2023-04-27,NA,NA,NA,NA,NA,NA,NA
+Parti conservateur du Québec,2023,19504.45,2023-04-27,NA,NA,NA,NA,NA,NA,NA
+Parti libéral du Québec,2023,46343.95,2023-04-27,NA,NA,NA,NA,NA,NA,NA
+Parti québécois,2023,253564.26,2023-04-27,NA,NA,NA,NA,NA,NA,NA
+Québec solidaire,2023,83400.78,2023-04-27,NA,NA,NA,NA,NA,NA,NA

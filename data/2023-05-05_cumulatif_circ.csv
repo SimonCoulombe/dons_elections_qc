@@ -1,138 +1,138 @@
 entite_politique,annee_financiere,co_circ,nm_circ,montant_cumulatif,donateurs,anciens_donateurs,nouveaux_donateurs,cumulatif_anciens,cumulatif_nouveaux,pct_nouveaux_donateurs,pct_cumulatif_nouveaux,date_cumulatif
-Coalition avenir Québec,2023,104,Mégantic,2665,29,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,110,Saint-François,1330,16,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,116,Sherbrooke,1180,15,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,120,Orford,1530,19,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,126,Johnson,865,12,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,132,Richmond,1510,18,NA,NA,NA,NA,NA,NA,2023-05-05
+Coalition avenir Québec,2023,104,Mégantic,2665,29,27,2,2550,115,0.06896551724137931,0.043151969981238276,2023-05-05
+Coalition avenir Québec,2023,110,Saint-François,1330,16,15,1,1230,100,0.0625,0.07518796992481203,2023-05-05
+Coalition avenir Québec,2023,116,Sherbrooke,1180,15,13,2,1060,120,0.13333333333333333,0.1016949152542373,2023-05-05
+Coalition avenir Québec,2023,120,Orford,1530,19,14,5,1275,255,0.2631578947368421,0.16666666666666666,2023-05-05
+Coalition avenir Québec,2023,126,Johnson,865,12,10,2,760,105,0.16666666666666666,0.12138728323699421,2023-05-05
+Coalition avenir Québec,2023,132,Richmond,1510,18,17,1,1500,10,0.05555555555555555,0.006622516556291391,2023-05-05
 Coalition avenir Québec,2023,138,Drummond-Bois-Francs,1100,14,14,0,1100,0,0,0,2023-05-05
-Coalition avenir Québec,2023,144,Arthabaska,4305,48,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,150,Nicolet-Bécancour,1985,23,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,204,Brome-Missisquoi,3550,43,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,206,Granby,2277,30,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,210,Iberville,3170,38,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,212,Saint-Jean,2675,31,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,216,Huntingdon,1800,20,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,218,Beauharnois,2782,33,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,220,Soulanges,2075,23,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,224,Vaudreuil,1225,14,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,226,Châteauguay,1625,21,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,230,Sanguinet,1110,13,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,232,La Prairie,3754,39,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,236,La Pinière,1335,15,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,238,Chambly,3255,37,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,240,Vachon,2005,23,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,244,Laporte,2525,28,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,246,Marie-Victorin,2590,31,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,250,Taillon,2800,30,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,252,Montarville,3885,41,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,256,Verchères,3540,43,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,258,Borduas,3820,41,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,260,Saint-Hyacinthe,1240,14,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,264,Richelieu,2400,29,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,300,Verdun,2050,23,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,304,Marguerite-Bourgeoys,305,4,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,306,Marquette,825,9,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,310,Jacques-Cartier,420,5,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,312,Nelligan,455,7,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,316,Robert-Baldwin,350,4,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,318,Saint-Laurent,925,10,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,320,D'Arcy-McGee,640,7,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,324,Notre-Dame-de-Grâce,640,8,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,326,Saint-Henri-Sainte-Anne,1925,18,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,330,Sainte-Marie-Saint-Jacques,780,10,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,332,Westmount-Saint-Louis,1900,19,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,336,Mont-Royal-Outremont,2200,22,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,338,Acadie,700,7,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,340,Maurice-Richard,1525,16,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,344,Laurier-Dorion,500,5,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,346,Gouin,1135,14,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,350,Mercier,950,10,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,352,Hochelaga-Maisonneuve,1250,13,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,356,Rosemont,1020,12,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,358,Viau,350,4,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,360,Bourassa-Sauvé,115,2,NA,NA,NA,NA,NA,NA,2023-05-05
+Coalition avenir Québec,2023,144,Arthabaska,4305,48,44,4,4055,250,0.08333333333333333,0.05807200929152149,2023-05-05
+Coalition avenir Québec,2023,150,Nicolet-Bécancour,1985,23,22,1,1975,10,0.043478260869565216,0.005037783375314861,2023-05-05
+Coalition avenir Québec,2023,204,Brome-Missisquoi,3550,43,37,6,3020,530,0.13953488372093023,0.14929577464788732,2023-05-05
+Coalition avenir Québec,2023,206,Granby,2277,30,25,5,2000,277,0.16666666666666666,0.12165129556433904,2023-05-05
+Coalition avenir Québec,2023,210,Iberville,3170,38,30,8,2740,430,0.21052631578947367,0.13564668769716087,2023-05-05
+Coalition avenir Québec,2023,212,Saint-Jean,2675,31,24,7,1975,700,0.22580645161290322,0.2616822429906542,2023-05-05
+Coalition avenir Québec,2023,216,Huntingdon,1800,20,16,4,1550,250,0.2,0.1388888888888889,2023-05-05
+Coalition avenir Québec,2023,218,Beauharnois,2782,33,24,9,2310,472,0.2727272727272727,0.16966211358734723,2023-05-05
+Coalition avenir Québec,2023,220,Soulanges,2075,23,17,6,1700,375,0.2608695652173913,0.18072289156626506,2023-05-05
+Coalition avenir Québec,2023,224,Vaudreuil,1225,14,12,2,1150,75,0.14285714285714285,0.061224489795918366,2023-05-05
+Coalition avenir Québec,2023,226,Châteauguay,1625,21,14,7,1110,515,0.3333333333333333,0.3169230769230769,2023-05-05
+Coalition avenir Québec,2023,230,Sanguinet,1110,13,11,2,1050,60,0.15384615384615385,0.05405405405405406,2023-05-05
+Coalition avenir Québec,2023,232,La Prairie,3754,39,24,15,2275,1479,0.38461538461538464,0.39397975492807674,2023-05-05
+Coalition avenir Québec,2023,236,La Pinière,1335,15,6,9,600,735,0.6,0.550561797752809,2023-05-05
+Coalition avenir Québec,2023,238,Chambly,3255,37,25,12,2335,920,0.32432432432432434,0.282642089093702,2023-05-05
+Coalition avenir Québec,2023,240,Vachon,2005,23,14,9,1250,755,0.391304347826087,0.3765586034912718,2023-05-05
+Coalition avenir Québec,2023,244,Laporte,2525,28,19,9,1625,900,0.32142857142857145,0.3564356435643564,2023-05-05
+Coalition avenir Québec,2023,246,Marie-Victorin,2590,31,22,9,1690,900,0.2903225806451613,0.3474903474903475,2023-05-05
+Coalition avenir Québec,2023,250,Taillon,2800,30,20,10,1800,1000,0.3333333333333333,0.35714285714285715,2023-05-05
+Coalition avenir Québec,2023,252,Montarville,3885,41,30,11,2835,1050,0.2682926829268293,0.2702702702702703,2023-05-05
+Coalition avenir Québec,2023,256,Verchères,3540,43,28,15,2570,970,0.3488372093023256,0.2740112994350282,2023-05-05
+Coalition avenir Québec,2023,258,Borduas,3820,41,31,10,2955,865,0.24390243902439024,0.22643979057591623,2023-05-05
+Coalition avenir Québec,2023,260,Saint-Hyacinthe,1240,14,13,1,1220,20,0.07142857142857142,0.016129032258064516,2023-05-05
+Coalition avenir Québec,2023,264,Richelieu,2400,29,26,3,2175,225,0.10344827586206896,0.09375,2023-05-05
+Coalition avenir Québec,2023,300,Verdun,2050,23,13,10,1225,825,0.43478260869565216,0.4024390243902439,2023-05-05
+Coalition avenir Québec,2023,304,Marguerite-Bourgeoys,305,4,3,1,300,5,0.25,0.01639344262295082,2023-05-05
+Coalition avenir Québec,2023,306,Marquette,825,9,6,3,600,225,0.3333333333333333,0.2727272727272727,2023-05-05
+Coalition avenir Québec,2023,310,Jacques-Cartier,420,5,4,1,320,100,0.2,0.23809523809523808,2023-05-05
+Coalition avenir Québec,2023,312,Nelligan,455,7,6,1,355,100,0.14285714285714285,0.21978021978021978,2023-05-05
+Coalition avenir Québec,2023,316,Robert-Baldwin,350,4,1,3,50,300,0.75,0.8571428571428571,2023-05-05
+Coalition avenir Québec,2023,318,Saint-Laurent,925,10,6,4,525,400,0.4,0.43243243243243246,2023-05-05
+Coalition avenir Québec,2023,320,D'Arcy-McGee,640,7,6,1,540,100,0.14285714285714285,0.15625,2023-05-05
+Coalition avenir Québec,2023,324,Notre-Dame-de-Grâce,640,8,5,3,500,140,0.375,0.21875,2023-05-05
+Coalition avenir Québec,2023,326,Saint-Henri-Sainte-Anne,1925,18,14,4,1600,325,0.2222222222222222,0.16883116883116883,2023-05-05
+Coalition avenir Québec,2023,330,Sainte-Marie-Saint-Jacques,780,10,8,2,655,125,0.2,0.16025641025641027,2023-05-05
+Coalition avenir Québec,2023,332,Westmount-Saint-Louis,1900,19,14,5,1400,500,0.2631578947368421,0.2631578947368421,2023-05-05
+Coalition avenir Québec,2023,336,Mont-Royal-Outremont,2200,22,20,2,2000,200,0.09090909090909091,0.09090909090909091,2023-05-05
+Coalition avenir Québec,2023,338,Acadie,700,7,5,2,500,200,0.2857142857142857,0.2857142857142857,2023-05-05
+Coalition avenir Québec,2023,340,Maurice-Richard,1525,16,13,3,1300,225,0.1875,0.14754098360655737,2023-05-05
+Coalition avenir Québec,2023,344,Laurier-Dorion,500,5,4,1,400,100,0.2,0.2,2023-05-05
+Coalition avenir Québec,2023,346,Gouin,1135,14,11,3,835,300,0.21428571428571427,0.2643171806167401,2023-05-05
+Coalition avenir Québec,2023,350,Mercier,950,10,9,1,850,100,0.1,0.10526315789473684,2023-05-05
+Coalition avenir Québec,2023,352,Hochelaga-Maisonneuve,1250,13,12,1,1150,100,0.07692307692307693,0.08,2023-05-05
+Coalition avenir Québec,2023,356,Rosemont,1020,12,8,4,775,245,0.3333333333333333,0.24019607843137256,2023-05-05
+Coalition avenir Québec,2023,358,Viau,350,4,2,2,150,200,0.5,0.5714285714285714,2023-05-05
+Coalition avenir Québec,2023,360,Bourassa-Sauvé,115,2,1,1,15,100,0.5,0.8695652173913043,2023-05-05
 Coalition avenir Québec,2023,364,Jeanne-Mance-Viger,100,1,1,0,100,0,0,0,2023-05-05
-Coalition avenir Québec,2023,366,Anjou-Louis-Riel,1675,19,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,370,Camille-Laurin,950,11,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,380,Pointe-aux-Trembles,2475,27,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,390,LaFontaine,205,3,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,454,Laval-des-Rapides,1170,13,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,460,Chomedey,830,11,NA,NA,NA,NA,NA,NA,2023-05-05
+Coalition avenir Québec,2023,366,Anjou-Louis-Riel,1675,19,14,5,1250,425,0.2631578947368421,0.2537313432835821,2023-05-05
+Coalition avenir Québec,2023,370,Camille-Laurin,950,11,9,2,750,200,0.18181818181818182,0.21052631578947367,2023-05-05
+Coalition avenir Québec,2023,380,Pointe-aux-Trembles,2475,27,18,9,1650,825,0.3333333333333333,0.3333333333333333,2023-05-05
+Coalition avenir Québec,2023,390,LaFontaine,205,3,2,1,105,100,0.3333333333333333,0.4878048780487805,2023-05-05
+Coalition avenir Québec,2023,454,Laval-des-Rapides,1170,13,9,4,850,320,0.3076923076923077,0.27350427350427353,2023-05-05
+Coalition avenir Québec,2023,460,Chomedey,830,11,8,3,625,205,0.2727272727272727,0.2469879518072289,2023-05-05
 Coalition avenir Québec,2023,466,Fabre,1305,15,15,0,1305,0,0,0,2023-05-05
-Coalition avenir Québec,2023,470,Sainte-Rose,1177,15,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,476,Vimont,580,11,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,482,Mille-Îles,1125,15,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,502,Groulx,1110,14,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,508,Deux-Montagnes,2580,30,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,514,Mirabel,1970,24,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,520,Argenteuil,1440,20,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,526,Saint-Jérôme,1345,15,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,530,Les Plaines,1370,18,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,536,Blainville,2975,32,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,542,Terrebonne,4470,51,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,548,Masson,4480,49,NA,NA,NA,NA,NA,NA,2023-05-05
+Coalition avenir Québec,2023,470,Sainte-Rose,1177,15,10,5,825,352,0.3333333333333333,0.29906542056074764,2023-05-05
+Coalition avenir Québec,2023,476,Vimont,580,11,8,3,485,95,0.2727272727272727,0.16379310344827586,2023-05-05
+Coalition avenir Québec,2023,482,Mille-Îles,1125,15,12,3,1025,100,0.2,0.08888888888888889,2023-05-05
+Coalition avenir Québec,2023,502,Groulx,1110,14,12,2,1060,50,0.14285714285714285,0.04504504504504504,2023-05-05
+Coalition avenir Québec,2023,508,Deux-Montagnes,2580,30,26,4,2345,235,0.13333333333333333,0.09108527131782945,2023-05-05
+Coalition avenir Québec,2023,514,Mirabel,1970,24,21,3,1750,220,0.125,0.1116751269035533,2023-05-05
+Coalition avenir Québec,2023,520,Argenteuil,1440,20,14,6,1090,350,0.3,0.24305555555555555,2023-05-05
+Coalition avenir Québec,2023,526,Saint-Jérôme,1345,15,12,3,1045,300,0.2,0.22304832713754646,2023-05-05
+Coalition avenir Québec,2023,530,Les Plaines,1370,18,14,4,1195,175,0.2222222222222222,0.12773722627737227,2023-05-05
+Coalition avenir Québec,2023,536,Blainville,2975,32,26,6,2450,525,0.1875,0.17647058823529413,2023-05-05
+Coalition avenir Québec,2023,542,Terrebonne,4470,51,34,17,2995,1475,0.3333333333333333,0.32997762863534674,2023-05-05
+Coalition avenir Québec,2023,548,Masson,4480,49,39,10,3560,920,0.20408163265306123,0.20535714285714285,2023-05-05
 Coalition avenir Québec,2023,554,L'Assomption,2275,28,28,0,2275,0,0,0,2023-05-05
-Coalition avenir Québec,2023,560,Repentigny,4740,55,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,566,Berthier,1655,21,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,570,Joliette,1575,17,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,576,Rousseau,1575,23,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,582,Prévost,2165,22,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,588,Bertrand,2960,35,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,594,Labelle,2410,30,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,602,Hull,4100,41,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,608,Pontiac,2755,31,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,614,Gatineau,3905,45,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,620,Chapleau,3730,40,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,626,Papineau,2220,26,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,636,Rouyn-Noranda-Témiscamingue,630,7,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,642,Abitibi-Ouest,835,11,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,648,Abitibi-Est,280,5,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,660,Trois-Rivières,3044,36,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,666,Maskinongé,1430,21,NA,NA,NA,NA,NA,NA,2023-05-05
+Coalition avenir Québec,2023,560,Repentigny,4740,55,49,6,4295,445,0.10909090909090909,0.0938818565400844,2023-05-05
+Coalition avenir Québec,2023,566,Berthier,1655,21,20,1,1645,10,0.047619047619047616,0.006042296072507553,2023-05-05
+Coalition avenir Québec,2023,570,Joliette,1575,17,16,1,1550,25,0.058823529411764705,0.015873015873015872,2023-05-05
+Coalition avenir Québec,2023,576,Rousseau,1575,23,19,4,1300,275,0.17391304347826086,0.1746031746031746,2023-05-05
+Coalition avenir Québec,2023,582,Prévost,2165,22,15,7,1465,700,0.3181818181818182,0.3233256351039261,2023-05-05
+Coalition avenir Québec,2023,588,Bertrand,2960,35,27,8,2400,560,0.22857142857142856,0.1891891891891892,2023-05-05
+Coalition avenir Québec,2023,594,Labelle,2410,30,28,2,2360,50,0.06666666666666667,0.02074688796680498,2023-05-05
+Coalition avenir Québec,2023,602,Hull,4100,41,26,15,2600,1500,0.36585365853658536,0.36585365853658536,2023-05-05
+Coalition avenir Québec,2023,608,Pontiac,2755,31,25,6,2230,525,0.1935483870967742,0.19056261343012704,2023-05-05
+Coalition avenir Québec,2023,614,Gatineau,3905,45,25,20,1985,1920,0.4444444444444444,0.49167733674775926,2023-05-05
+Coalition avenir Québec,2023,620,Chapleau,3730,40,32,8,2990,740,0.2,0.19839142091152814,2023-05-05
+Coalition avenir Québec,2023,626,Papineau,2220,26,21,5,1780,440,0.19230769230769232,0.1981981981981982,2023-05-05
+Coalition avenir Québec,2023,636,Rouyn-Noranda-Témiscamingue,630,7,6,1,600,30,0.14285714285714285,0.047619047619047616,2023-05-05
+Coalition avenir Québec,2023,642,Abitibi-Ouest,835,11,10,1,815,20,0.09090909090909091,0.023952095808383235,2023-05-05
+Coalition avenir Québec,2023,648,Abitibi-Est,280,5,4,1,275,5,0.2,0.017857142857142856,2023-05-05
+Coalition avenir Québec,2023,660,Trois-Rivières,3044,36,28,8,2515,529,0.2222222222222222,0.173784494086728,2023-05-05
+Coalition avenir Québec,2023,666,Maskinongé,1430,21,18,3,1220,210,0.14285714285714285,0.14685314685314685,2023-05-05
 Coalition avenir Québec,2023,670,Laviolette-Saint-Maurice,780,10,10,0,780,0,0,0,2023-05-05
-Coalition avenir Québec,2023,676,Champlain,2225,30,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,702,Jean-Talon,4792,54,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,708,Louis-Hébert,5140,55,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,714,Portneuf,2985,38,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,720,La Peltrie,3050,34,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,726,Vanier-Les Rivières,1895,21,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,730,Taschereau,5271,54,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,736,Jean-Lesage,1750,18,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,742,Montmorency,3277,36,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,748,Charlesbourg,2185,23,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,754,Chauveau,1720,24,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,760,Charlevoix-Côte-de-Beaupré,3600,39,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,802,Beauce-Sud,5345,56,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,806,Beauce-Nord,2720,31,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,810,Lotbinière-Frontenac,1060,13,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,814,Chutes-de-la-Chaudière,2665,31,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,818,Lévis,1985,24,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,822,Bellechasse,745,10,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,826,Côte-du-Sud,1595,20,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,834,Rivière-du-Loup-Témiscouata,4657,55,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,838,Rimouski,595,8,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,842,Matane-Matapédia,165,6,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,850,Bonaventure,840,10,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,854,Gaspé,400,6,NA,NA,NA,NA,NA,NA,2023-05-05
+Coalition avenir Québec,2023,676,Champlain,2225,30,23,7,1605,620,0.23333333333333334,0.2786516853932584,2023-05-05
+Coalition avenir Québec,2023,702,Jean-Talon,4792,54,37,17,3240,1552,0.3148148148148148,0.32387312186978295,2023-05-05
+Coalition avenir Québec,2023,708,Louis-Hébert,5140,55,35,20,3290,1850,0.36363636363636365,0.35992217898832685,2023-05-05
+Coalition avenir Québec,2023,714,Portneuf,2985,38,37,1,2965,20,0.02631578947368421,0.006700167504187605,2023-05-05
+Coalition avenir Québec,2023,720,La Peltrie,3050,34,23,11,2040,1010,0.3235294117647059,0.33114754098360655,2023-05-05
+Coalition avenir Québec,2023,726,Vanier-Les Rivières,1895,21,15,6,1345,550,0.2857142857142857,0.29023746701846964,2023-05-05
+Coalition avenir Québec,2023,730,Taschereau,5271,54,44,10,4320,951,0.18518518518518517,0.18042117245304495,2023-05-05
+Coalition avenir Québec,2023,736,Jean-Lesage,1750,18,14,4,1350,400,0.2222222222222222,0.22857142857142856,2023-05-05
+Coalition avenir Québec,2023,742,Montmorency,3277,36,22,14,2120,1157,0.3888888888888889,0.35306682941714984,2023-05-05
+Coalition avenir Québec,2023,748,Charlesbourg,2185,23,20,3,1885,300,0.13043478260869565,0.13729977116704806,2023-05-05
+Coalition avenir Québec,2023,754,Chauveau,1720,24,17,7,1115,605,0.2916666666666667,0.35174418604651164,2023-05-05
+Coalition avenir Québec,2023,760,Charlevoix-Côte-de-Beaupré,3600,39,29,10,2600,1000,0.2564102564102564,0.2777777777777778,2023-05-05
+Coalition avenir Québec,2023,802,Beauce-Sud,5345,56,38,18,3570,1775,0.32142857142857145,0.33208606173994387,2023-05-05
+Coalition avenir Québec,2023,806,Beauce-Nord,2720,31,23,8,2090,630,0.25806451612903225,0.23161764705882354,2023-05-05
+Coalition avenir Québec,2023,810,Lotbinière-Frontenac,1060,13,8,5,635,425,0.38461538461538464,0.4009433962264151,2023-05-05
+Coalition avenir Québec,2023,814,Chutes-de-la-Chaudière,2665,31,21,10,2000,665,0.3225806451612903,0.24953095684803,2023-05-05
+Coalition avenir Québec,2023,818,Lévis,1985,24,16,8,1340,645,0.3333333333333333,0.3249370277078086,2023-05-05
+Coalition avenir Québec,2023,822,Bellechasse,745,10,9,1,725,20,0.1,0.026845637583892617,2023-05-05
+Coalition avenir Québec,2023,826,Côte-du-Sud,1595,20,15,5,1350,245,0.25,0.1536050156739812,2023-05-05
+Coalition avenir Québec,2023,834,Rivière-du-Loup-Témiscouata,4657,55,48,7,4145,512,0.12727272727272726,0.1099420227614344,2023-05-05
+Coalition avenir Québec,2023,838,Rimouski,595,8,5,3,375,220,0.375,0.3697478991596639,2023-05-05
+Coalition avenir Québec,2023,842,Matane-Matapédia,165,6,5,1,155,10,0.16666666666666666,0.06060606060606061,2023-05-05
+Coalition avenir Québec,2023,850,Bonaventure,840,10,9,1,740,100,0.1,0.11904761904761904,2023-05-05
+Coalition avenir Québec,2023,854,Gaspé,400,6,5,1,375,25,0.16666666666666666,0.0625,2023-05-05
 Coalition avenir Québec,2023,858,Îles-de-la-Madeleine,330,5,5,0,330,0,0,0,2023-05-05
 Coalition avenir Québec,2023,902,Duplessis,325,4,4,0,325,0,0,0,2023-05-05
-Coalition avenir Québec,2023,906,René-Lévesque,670,8,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,914,Dubuc,1527,18,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,918,Chicoutimi,1606.34,20,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,922,Jonquière,730,8,NA,NA,NA,NA,NA,NA,2023-05-05
-Coalition avenir Québec,2023,926,Lac-Saint-Jean,1375,17,NA,NA,NA,NA,NA,NA,2023-05-05
+Coalition avenir Québec,2023,906,René-Lévesque,670,8,7,1,570,100,0.125,0.14925373134328357,2023-05-05
+Coalition avenir Québec,2023,914,Dubuc,1527,18,17,1,1525,2,0.05555555555555555,0.0013097576948264572,2023-05-05
+Coalition avenir Québec,2023,918,Chicoutimi,1606.34,20,15,5,1320,286.34,0.25,0.1782561599661342,2023-05-05
+Coalition avenir Québec,2023,922,Jonquière,730,8,6,2,600,130,0.25,0.1780821917808219,2023-05-05
+Coalition avenir Québec,2023,926,Lac-Saint-Jean,1375,17,16,1,1365,10,0.058823529411764705,0.007272727272727273,2023-05-05
 Coalition avenir Québec,2023,930,Roberval,1410,15,15,0,1410,0,0,0,2023-05-05
 Coalition avenir Québec,2023,938,Ungava,1020,11,11,0,1020,0,0,0,2023-05-05
-Coalition avenir Québec,2023,NA,NA,300,3,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti conservateur du Québec,2023,104,Mégantic,76,2,NA,NA,NA,NA,NA,NA,2023-05-05
+Coalition avenir Québec,2023,NA,NA,300,3,0,3,0,300,1,1,2023-05-05
+Parti conservateur du Québec,2023,104,Mégantic,76,2,1,1,26,50,0.5,0.6578947368421053,2023-05-05
 Parti conservateur du Québec,2023,116,Sherbrooke,200,2,2,0,200,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,120,Orford,400,4,4,0,400,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,126,Johnson,100,1,1,0,100,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,132,Richmond,126,2,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,132,Richmond,126,2,1,1,100,26,0.5,0.20634920634920634,2023-05-05
 Parti conservateur du Québec,2023,138,Drummond-Bois-Francs,105.19,2,2,0,105.19,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,144,Arthabaska,315,4,4,0,315,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,204,Brome-Missisquoi,220,3,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,204,Brome-Missisquoi,220,3,1,2,100,120,0.6666666666666666,0.5454545454545454,2023-05-05
 Parti conservateur du Québec,2023,206,Granby,150,2,2,0,150,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,210,Iberville,100,1,1,0,100,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,212,Saint-Jean,200,2,2,0,200,0,0,0,2023-05-05
@@ -143,39 +143,39 @@ Parti conservateur du Québec,2023,230,Sanguinet,225,3,3,0,225,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,232,La Prairie,100,1,1,0,100,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,238,Chambly,20,1,1,0,20,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,240,Vachon,110,2,2,0,110,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,244,Laporte,100,1,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,244,Laporte,100,1,0,1,0,100,1,1,2023-05-05
 Parti conservateur du Québec,2023,250,Taillon,100,1,1,0,100,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,252,Montarville,300,3,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,252,Montarville,300,3,2,1,200,100,0.3333333333333333,0.3333333333333333,2023-05-05
 Parti conservateur du Québec,2023,256,Verchères,300,3,3,0,300,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,258,Borduas,20,1,1,0,20,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,264,Richelieu,10,1,1,0,10,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,300,Verdun,100,1,1,0,100,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,310,Jacques-Cartier,26,1,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,310,Jacques-Cartier,26,1,0,1,0,26,1,1,2023-05-05
 Parti conservateur du Québec,2023,312,Nelligan,120,2,2,0,120,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,318,Saint-Laurent,200,2,2,0,200,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,320,D'Arcy-McGee,100,1,1,0,100,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,324,Notre-Dame-de-Grâce,20,1,1,0,20,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,326,Saint-Henri-Sainte-Anne,220.23,2,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,326,Saint-Henri-Sainte-Anne,220.23,2,1,1,200,20.23,0.5,0.09185851155610045,2023-05-05
 Parti conservateur du Québec,2023,330,Sainte-Marie-Saint-Jacques,30,1,1,0,30,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,332,Westmount-Saint-Louis,250.99,4,4,0,250.99,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,338,Acadie,100,1,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,338,Acadie,100,1,0,1,0,100,1,1,2023-05-05
 Parti conservateur du Québec,2023,340,Maurice-Richard,300,3,3,0,300,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,344,Laurier-Dorion,100,1,1,0,100,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,350,Mercier,100,1,1,0,100,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,352,Hochelaga-Maisonneuve,75,2,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,352,Hochelaga-Maisonneuve,75,2,1,1,50,25,0.5,0.3333333333333333,2023-05-05
 Parti conservateur du Québec,2023,356,Rosemont,125,2,2,0,125,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,360,Bourassa-Sauvé,100,1,1,0,100,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,364,Jeanne-Mance-Viger,50,1,1,0,50,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,366,Anjou-Louis-Riel,100,1,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti conservateur du Québec,2023,454,Laval-des-Rapides,300,3,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,366,Anjou-Louis-Riel,100,1,0,1,0,100,1,1,2023-05-05
+Parti conservateur du Québec,2023,454,Laval-des-Rapides,300,3,2,1,200,100,0.3333333333333333,0.3333333333333333,2023-05-05
 Parti conservateur du Québec,2023,460,Chomedey,20,1,1,0,20,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,466,Fabre,100,1,1,0,100,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,470,Sainte-Rose,160,3,3,0,160,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,502,Groulx,310,4,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti conservateur du Québec,2023,508,Deux-Montagnes,325,4,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti conservateur du Québec,2023,514,Mirabel,330,4,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,502,Groulx,310,4,1,3,10,300,0.75,0.967741935483871,2023-05-05
+Parti conservateur du Québec,2023,508,Deux-Montagnes,325,4,3,1,300,25,0.25,0.07692307692307693,2023-05-05
+Parti conservateur du Québec,2023,514,Mirabel,330,4,3,1,230,100,0.25,0.30303030303030304,2023-05-05
 Parti conservateur du Québec,2023,520,Argenteuil,200,2,2,0,200,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,526,Saint-Jérôme,230,3,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,526,Saint-Jérôme,230,3,2,1,130,100,0.3333333333333333,0.43478260869565216,2023-05-05
 Parti conservateur du Québec,2023,530,Les Plaines,100,1,1,0,100,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,536,Blainville,300,3,3,0,300,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,548,Masson,50,1,1,0,50,0,0,0,2023-05-05
@@ -183,141 +183,141 @@ Parti conservateur du Québec,2023,554,L'Assomption,125,2,2,0,125,0,0,0,2023-05-
 Parti conservateur du Québec,2023,560,Repentigny,25,1,1,0,25,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,566,Berthier,120,2,2,0,120,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,570,Joliette,25,1,1,0,25,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,576,Rousseau,10,1,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,576,Rousseau,10,1,0,1,0,10,1,1,2023-05-05
 Parti conservateur du Québec,2023,582,Prévost,105,2,2,0,105,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,594,Labelle,226,3,3,0,226,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,602,Hull,100,1,1,0,100,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,608,Pontiac,110,2,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti conservateur du Québec,2023,614,Gatineau,276,4,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti conservateur du Québec,2023,620,Chapleau,421,6,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti conservateur du Québec,2023,626,Papineau,200,2,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti conservateur du Québec,2023,642,Abitibi-Ouest,165,3,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti conservateur du Québec,2023,660,Trois-Rivières,300,3,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,608,Pontiac,110,2,0,2,0,110,1,1,2023-05-05
+Parti conservateur du Québec,2023,614,Gatineau,276,4,3,1,176,100,0.25,0.36231884057971014,2023-05-05
+Parti conservateur du Québec,2023,620,Chapleau,421,6,3,3,221,200,0.5,0.4750593824228028,2023-05-05
+Parti conservateur du Québec,2023,626,Papineau,200,2,0,2,0,200,1,1,2023-05-05
+Parti conservateur du Québec,2023,642,Abitibi-Ouest,165,3,1,2,25,140,0.6666666666666666,0.8484848484848485,2023-05-05
+Parti conservateur du Québec,2023,660,Trois-Rivières,300,3,2,1,200,100,0.3333333333333333,0.3333333333333333,2023-05-05
 Parti conservateur du Québec,2023,666,Maskinongé,300,3,3,0,300,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,670,Laviolette-Saint-Maurice,250,3,3,0,250,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,676,Champlain,335,5,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti conservateur du Québec,2023,702,Jean-Talon,625,7,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,676,Champlain,335,5,4,1,325,10,0.2,0.029850746268656716,2023-05-05
+Parti conservateur du Québec,2023,702,Jean-Talon,625,7,5,2,500,125,0.2857142857142857,0.2,2023-05-05
 Parti conservateur du Québec,2023,708,Louis-Hébert,145,3,3,0,145,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,714,Portneuf,626,7,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti conservateur du Québec,2023,720,La Peltrie,600,9,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,714,Portneuf,626,7,4,3,400,226,0.42857142857142855,0.3610223642172524,2023-05-05
+Parti conservateur du Québec,2023,720,La Peltrie,600,9,7,2,575,25,0.2222222222222222,0.041666666666666664,2023-05-05
 Parti conservateur du Québec,2023,726,Vanier-Les Rivières,377,5,5,0,377,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,730,Taschereau,350,4,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,730,Taschereau,350,4,2,2,200,150,0.5,0.42857142857142855,2023-05-05
 Parti conservateur du Québec,2023,736,Jean-Lesage,150,2,2,0,150,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,742,Montmorency,327,8,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,742,Montmorency,327,8,4,4,246,81,0.5,0.24770642201834864,2023-05-05
 Parti conservateur du Québec,2023,748,Charlesbourg,300,3,3,0,300,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,754,Chauveau,700,9,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,754,Chauveau,700,9,8,1,600,100,0.1111111111111111,0.14285714285714285,2023-05-05
 Parti conservateur du Québec,2023,760,Charlevoix-Côte-de-Beaupré,200,2,2,0,200,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,802,Beauce-Sud,300,3,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti conservateur du Québec,2023,806,Beauce-Nord,451,7,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,802,Beauce-Sud,300,3,2,1,200,100,0.3333333333333333,0.3333333333333333,2023-05-05
+Parti conservateur du Québec,2023,806,Beauce-Nord,451,7,4,3,251,200,0.42857142857142855,0.4434589800443459,2023-05-05
 Parti conservateur du Québec,2023,810,Lotbinière-Frontenac,200,2,2,0,200,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,814,Chutes-de-la-Chaudière,950,11,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,814,Chutes-de-la-Chaudière,950,11,10,1,850,100,0.09090909090909091,0.10526315789473684,2023-05-05
 Parti conservateur du Québec,2023,818,Lévis,200,4,4,0,200,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,822,Bellechasse,905,13,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti conservateur du Québec,2023,826,Côte-du-Sud,450,5,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti conservateur du Québec,2023,834,Rivière-du-Loup-Témiscouata,235,4,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,822,Bellechasse,905,13,4,9,280,625,0.6923076923076923,0.6906077348066298,2023-05-05
+Parti conservateur du Québec,2023,826,Côte-du-Sud,450,5,3,2,300,150,0.4,0.3333333333333333,2023-05-05
+Parti conservateur du Québec,2023,834,Rivière-du-Loup-Témiscouata,235,4,3,1,135,100,0.25,0.425531914893617,2023-05-05
 Parti conservateur du Québec,2023,838,Rimouski,50,1,1,0,50,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,842,Matane-Matapédia,100,1,1,0,100,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,858,Îles-de-la-Madeleine,200,2,2,0,200,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,906,René-Lévesque,100,1,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,906,René-Lévesque,100,1,0,1,0,100,1,1,2023-05-05
 Parti conservateur du Québec,2023,914,Dubuc,200,2,2,0,200,0,0,0,2023-05-05
 Parti conservateur du Québec,2023,918,Chicoutimi,200,2,2,0,200,0,0,0,2023-05-05
-Parti conservateur du Québec,2023,922,Jonquière,100,1,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti conservateur du Québec,2023,922,Jonquière,100,1,0,1,0,100,1,1,2023-05-05
 Parti libéral du Québec,2023,104,Mégantic,250,3,3,0,250,0,0,0,2023-05-05
 Parti libéral du Québec,2023,110,Saint-François,200,2,2,0,200,0,0,0,2023-05-05
 Parti libéral du Québec,2023,116,Sherbrooke,233.32,5,5,0,233.32,0,0,0,2023-05-05
-Parti libéral du Québec,2023,120,Orford,186,4,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,120,Orford,186,4,2,2,150,36,0.5,0.1935483870967742,2023-05-05
 Parti libéral du Québec,2023,132,Richmond,33,2,2,0,33,0,0,0,2023-05-05
 Parti libéral du Québec,2023,144,Arthabaska,124.99,2,2,0,124.99,0,0,0,2023-05-05
-Parti libéral du Québec,2023,204,Brome-Missisquoi,250,4,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,204,Brome-Missisquoi,250,4,3,1,150,100,0.25,0.4,2023-05-05
 Parti libéral du Québec,2023,206,Granby,100,1,1,0,100,0,0,0,2023-05-05
 Parti libéral du Québec,2023,210,Iberville,100,1,1,0,100,0,0,0,2023-05-05
-Parti libéral du Québec,2023,212,Saint-Jean,300,3,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,212,Saint-Jean,300,3,2,1,200,100,0.3333333333333333,0.3333333333333333,2023-05-05
 Parti libéral du Québec,2023,216,Huntingdon,299.99,3,3,0,299.99,0,0,0,2023-05-05
-Parti libéral du Québec,2023,220,Soulanges,745,9,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,224,Vaudreuil,300,3,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,220,Soulanges,745,9,8,1,645,100,0.1111111111111111,0.1342281879194631,2023-05-05
+Parti libéral du Québec,2023,224,Vaudreuil,300,3,1,2,100,200,0.6666666666666666,0.6666666666666666,2023-05-05
 Parti libéral du Québec,2023,226,Châteauguay,400,4,4,0,400,0,0,0,2023-05-05
-Parti libéral du Québec,2023,230,Sanguinet,250,4,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,232,La Prairie,100,1,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,236,La Pinière,850,10,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,238,Chambly,300,4,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,240,Vachon,100,1,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,244,Laporte,370,5,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,230,Sanguinet,250,4,1,3,25,225,0.75,0.9,2023-05-05
+Parti libéral du Québec,2023,232,La Prairie,100,1,0,1,0,100,1,1,2023-05-05
+Parti libéral du Québec,2023,236,La Pinière,850,10,8,2,700,150,0.2,0.17647058823529413,2023-05-05
+Parti libéral du Québec,2023,238,Chambly,300,4,3,1,200,100,0.25,0.3333333333333333,2023-05-05
+Parti libéral du Québec,2023,240,Vachon,100,1,0,1,0,100,1,1,2023-05-05
+Parti libéral du Québec,2023,244,Laporte,370,5,4,1,345,25,0.2,0.06756756756756757,2023-05-05
 Parti libéral du Québec,2023,246,Marie-Victorin,24,1,1,0,24,0,0,0,2023-05-05
-Parti libéral du Québec,2023,250,Taillon,204.99,5,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,250,Taillon,204.99,5,4,1,194.99,10,0.2,0.04878286745694912,2023-05-05
 Parti libéral du Québec,2023,252,Montarville,511,6,6,0,511,0,0,0,2023-05-05
 Parti libéral du Québec,2023,256,Verchères,240,4,4,0,240,0,0,0,2023-05-05
 Parti libéral du Québec,2023,258,Borduas,100,1,1,0,100,0,0,0,2023-05-05
 Parti libéral du Québec,2023,260,Saint-Hyacinthe,50,1,1,0,50,0,0,0,2023-05-05
 Parti libéral du Québec,2023,264,Richelieu,25,1,1,0,25,0,0,0,2023-05-05
 Parti libéral du Québec,2023,300,Verdun,625,7,7,0,625,0,0,0,2023-05-05
-Parti libéral du Québec,2023,304,Marguerite-Bourgeoys,385,6,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,306,Marquette,825,9,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,310,Jacques-Cartier,3075,32,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,312,Nelligan,4390,48,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,316,Robert-Baldwin,3265,37,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,318,Saint-Laurent,835,10,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,320,D'Arcy-McGee,530,7,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,324,Notre-Dame-de-Grâce,750,8,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,326,Saint-Henri-Sainte-Anne,899.99,10,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,330,Sainte-Marie-Saint-Jacques,775,8,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,332,Westmount-Saint-Louis,1000,10,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,336,Mont-Royal-Outremont,1735,19,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,338,Acadie,1295,15,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,304,Marguerite-Bourgeoys,385,6,3,3,225,160,0.5,0.4155844155844156,2023-05-05
+Parti libéral du Québec,2023,306,Marquette,825,9,6,3,525,300,0.3333333333333333,0.36363636363636365,2023-05-05
+Parti libéral du Québec,2023,310,Jacques-Cartier,3075,32,25,7,2425,650,0.21875,0.21138211382113822,2023-05-05
+Parti libéral du Québec,2023,312,Nelligan,4390,48,33,15,3075,1315,0.3125,0.29954441913439633,2023-05-05
+Parti libéral du Québec,2023,316,Robert-Baldwin,3265,37,29,8,2650,615,0.21621621621621623,0.1883614088820827,2023-05-05
+Parti libéral du Québec,2023,318,Saint-Laurent,835,10,7,3,585,250,0.3,0.2994011976047904,2023-05-05
+Parti libéral du Québec,2023,320,D'Arcy-McGee,530,7,5,2,425,105,0.2857142857142857,0.19811320754716982,2023-05-05
+Parti libéral du Québec,2023,324,Notre-Dame-de-Grâce,750,8,5,3,500,250,0.375,0.3333333333333333,2023-05-05
+Parti libéral du Québec,2023,326,Saint-Henri-Sainte-Anne,899.99,10,6,4,624.99,275,0.4,0.30555895065500727,2023-05-05
+Parti libéral du Québec,2023,330,Sainte-Marie-Saint-Jacques,775,8,6,2,575,200,0.25,0.25806451612903225,2023-05-05
+Parti libéral du Québec,2023,332,Westmount-Saint-Louis,1000,10,8,2,800,200,0.2,0.2,2023-05-05
+Parti libéral du Québec,2023,336,Mont-Royal-Outremont,1735,19,17,2,1535,200,0.10526315789473684,0.11527377521613832,2023-05-05
+Parti libéral du Québec,2023,338,Acadie,1295,15,7,8,495,800,0.5333333333333333,0.6177606177606177,2023-05-05
 Parti libéral du Québec,2023,340,Maurice-Richard,425,5,5,0,425,0,0,0,2023-05-05
 Parti libéral du Québec,2023,344,Laurier-Dorion,315,4,4,0,315,0,0,0,2023-05-05
 Parti libéral du Québec,2023,346,Gouin,150,3,3,0,150,0,0,0,2023-05-05
 Parti libéral du Québec,2023,350,Mercier,50,1,1,0,50,0,0,0,2023-05-05
 Parti libéral du Québec,2023,352,Hochelaga-Maisonneuve,100,1,1,0,100,0,0,0,2023-05-05
-Parti libéral du Québec,2023,356,Rosemont,760,8,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,358,Viau,1305,17,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,356,Rosemont,760,8,7,1,660,100,0.125,0.13157894736842105,2023-05-05
+Parti libéral du Québec,2023,358,Viau,1305,17,14,3,1005,300,0.17647058823529413,0.22988505747126436,2023-05-05
 Parti libéral du Québec,2023,360,Bourassa-Sauvé,615,7,7,0,615,0,0,0,2023-05-05
 Parti libéral du Québec,2023,364,Jeanne-Mance-Viger,800,8,8,0,800,0,0,0,2023-05-05
-Parti libéral du Québec,2023,366,Anjou-Louis-Riel,1185,15,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,370,Camille-Laurin,350,4,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,380,Pointe-aux-Trembles,75,3,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,390,LaFontaine,1090,12,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,366,Anjou-Louis-Riel,1185,15,11,4,785,400,0.26666666666666666,0.33755274261603374,2023-05-05
+Parti libéral du Québec,2023,370,Camille-Laurin,350,4,2,2,200,150,0.5,0.42857142857142855,2023-05-05
+Parti libéral du Québec,2023,380,Pointe-aux-Trembles,75,3,0,3,0,75,1,1,2023-05-05
+Parti libéral du Québec,2023,390,LaFontaine,1090,12,9,3,895,195,0.25,0.17889908256880735,2023-05-05
 Parti libéral du Québec,2023,454,Laval-des-Rapides,511,6,6,0,511,0,0,0,2023-05-05
-Parti libéral du Québec,2023,460,Chomedey,1158.32,14,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,466,Fabre,258.32,4,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,470,Sainte-Rose,300,3,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,476,Vimont,640,10,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,482,Mille-Îles,1025,11,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,502,Groulx,100,1,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,514,Mirabel,320,4,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,460,Chomedey,1158.32,14,13,1,1108.32,50,0.07142857142857142,0.043165964500310794,2023-05-05
+Parti libéral du Québec,2023,466,Fabre,258.32,4,3,1,233.32,25,0.25,0.09677918860328276,2023-05-05
+Parti libéral du Québec,2023,470,Sainte-Rose,300,3,1,2,100,200,0.6666666666666666,0.6666666666666666,2023-05-05
+Parti libéral du Québec,2023,476,Vimont,640,10,5,5,400,240,0.5,0.375,2023-05-05
+Parti libéral du Québec,2023,482,Mille-Îles,1025,11,6,5,600,425,0.45454545454545453,0.4146341463414634,2023-05-05
+Parti libéral du Québec,2023,502,Groulx,100,1,0,1,0,100,1,1,2023-05-05
+Parti libéral du Québec,2023,514,Mirabel,320,4,2,2,120,200,0.5,0.625,2023-05-05
 Parti libéral du Québec,2023,520,Argenteuil,120,3,3,0,120,0,0,0,2023-05-05
 Parti libéral du Québec,2023,526,Saint-Jérôme,58.2,2,2,0,58.2,0,0,0,2023-05-05
 Parti libéral du Québec,2023,530,Les Plaines,100,1,1,0,100,0,0,0,2023-05-05
-Parti libéral du Québec,2023,536,Blainville,1050,11,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,542,Terrebonne,400,4,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,548,Masson,200,2,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,536,Blainville,1050,11,10,1,950,100,0.09090909090909091,0.09523809523809523,2023-05-05
+Parti libéral du Québec,2023,542,Terrebonne,400,4,3,1,300,100,0.25,0.25,2023-05-05
+Parti libéral du Québec,2023,548,Masson,200,2,1,1,100,100,0.5,0.5,2023-05-05
 Parti libéral du Québec,2023,554,L'Assomption,75,2,2,0,75,0,0,0,2023-05-05
-Parti libéral du Québec,2023,560,Repentigny,795,8,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,560,Repentigny,795,8,2,6,195,600,0.75,0.7547169811320755,2023-05-05
 Parti libéral du Québec,2023,566,Berthier,95,1,1,0,95,0,0,0,2023-05-05
-Parti libéral du Québec,2023,570,Joliette,95,1,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,576,Rousseau,20,1,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,582,Prévost,425,5,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,588,Bertrand,100,1,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,570,Joliette,95,1,0,1,0,95,1,1,2023-05-05
+Parti libéral du Québec,2023,576,Rousseau,20,1,0,1,0,20,1,1,2023-05-05
+Parti libéral du Québec,2023,582,Prévost,425,5,3,2,300,125,0.4,0.29411764705882354,2023-05-05
+Parti libéral du Québec,2023,588,Bertrand,100,1,0,1,0,100,1,1,2023-05-05
 Parti libéral du Québec,2023,594,Labelle,100,1,1,0,100,0,0,0,2023-05-05
-Parti libéral du Québec,2023,602,Hull,458.32,6,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,608,Pontiac,525,7,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,602,Hull,458.32,6,5,1,358.32,100,0.16666666666666666,0.2181881654739047,2023-05-05
+Parti libéral du Québec,2023,608,Pontiac,525,7,5,2,375,150,0.2857142857142857,0.2857142857142857,2023-05-05
 Parti libéral du Québec,2023,614,Gatineau,25,1,1,0,25,0,0,0,2023-05-05
 Parti libéral du Québec,2023,620,Chapleau,135,4,4,0,135,0,0,0,2023-05-05
-Parti libéral du Québec,2023,626,Papineau,50,2,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,626,Papineau,50,2,1,1,25,25,0.5,0.5,2023-05-05
 Parti libéral du Québec,2023,636,Rouyn-Noranda-Témiscamingue,200,2,2,0,200,0,0,0,2023-05-05
-Parti libéral du Québec,2023,642,Abitibi-Ouest,50,2,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,642,Abitibi-Ouest,50,2,1,1,25,25,0.5,0.5,2023-05-05
 Parti libéral du Québec,2023,648,Abitibi-Est,100,1,1,0,100,0,0,0,2023-05-05
 Parti libéral du Québec,2023,660,Trois-Rivières,725,8,8,0,725,0,0,0,2023-05-05
 Parti libéral du Québec,2023,670,Laviolette-Saint-Maurice,100,1,1,0,100,0,0,0,2023-05-05
 Parti libéral du Québec,2023,676,Champlain,200,2,2,0,200,0,0,0,2023-05-05
-Parti libéral du Québec,2023,702,Jean-Talon,516,10,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,708,Louis-Hébert,395,6,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,714,Portneuf,50,1,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,702,Jean-Talon,516,10,9,1,416,100,0.1,0.1937984496124031,2023-05-05
+Parti libéral du Québec,2023,708,Louis-Hébert,395,6,5,1,295,100,0.16666666666666666,0.25316455696202533,2023-05-05
+Parti libéral du Québec,2023,714,Portneuf,50,1,0,1,0,50,1,1,2023-05-05
 Parti libéral du Québec,2023,720,La Peltrie,400,4,4,0,400,0,0,0,2023-05-05
-Parti libéral du Québec,2023,726,Vanier-Les Rivières,350,4,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,730,Taschereau,870,11,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,726,Vanier-Les Rivières,350,4,1,3,100,250,0.75,0.7142857142857143,2023-05-05
+Parti libéral du Québec,2023,730,Taschereau,870,11,7,4,545,325,0.36363636363636365,0.3735632183908046,2023-05-05
 Parti libéral du Québec,2023,736,Jean-Lesage,24.99,1,1,0,24.99,0,0,0,2023-05-05
-Parti libéral du Québec,2023,742,Montmorency,460,6,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,748,Charlesbourg,500,5,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,742,Montmorency,460,6,5,1,450,10,0.16666666666666666,0.021739130434782608,2023-05-05
+Parti libéral du Québec,2023,748,Charlesbourg,500,5,4,1,400,100,0.2,0.2,2023-05-05
 Parti libéral du Québec,2023,754,Chauveau,310,4,4,0,310,0,0,0,2023-05-05
 Parti libéral du Québec,2023,760,Charlevoix-Côte-de-Beaupré,350,4,4,0,350,0,0,0,2023-05-05
 Parti libéral du Québec,2023,802,Beauce-Sud,200,2,2,0,200,0,0,0,2023-05-05
@@ -327,259 +327,259 @@ Parti libéral du Québec,2023,814,Chutes-de-la-Chaudière,25,1,1,0,25,0,0,0,202
 Parti libéral du Québec,2023,818,Lévis,125,2,2,0,125,0,0,0,2023-05-05
 Parti libéral du Québec,2023,822,Bellechasse,49.989999999999995,2,2,0,49.989999999999995,0,0,0,2023-05-05
 Parti libéral du Québec,2023,826,Côte-du-Sud,91.64,3,3,0,91.64,0,0,0,2023-05-05
-Parti libéral du Québec,2023,834,Rivière-du-Loup-Témiscouata,345,4,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti libéral du Québec,2023,838,Rimouski,413.25,11,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,834,Rivière-du-Loup-Témiscouata,345,4,3,1,295,50,0.25,0.14492753623188406,2023-05-05
+Parti libéral du Québec,2023,838,Rimouski,413.25,11,10,1,408.25,5,0.09090909090909091,0.012099213551119177,2023-05-05
 Parti libéral du Québec,2023,850,Bonaventure,25,1,1,0,25,0,0,0,2023-05-05
 Parti libéral du Québec,2023,854,Gaspé,100,1,1,0,100,0,0,0,2023-05-05
-Parti libéral du Québec,2023,858,Îles-de-la-Madeleine,100,1,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti libéral du Québec,2023,858,Îles-de-la-Madeleine,100,1,0,1,0,100,1,1,2023-05-05
 Parti libéral du Québec,2023,902,Duplessis,58.31,2,2,0,58.31,0,0,0,2023-05-05
 Parti libéral du Québec,2023,906,René-Lévesque,58.31,2,2,0,58.31,0,0,0,2023-05-05
 Parti libéral du Québec,2023,914,Dubuc,75,2,2,0,75,0,0,0,2023-05-05
 Parti libéral du Québec,2023,922,Jonquière,15,1,1,0,15,0,0,0,2023-05-05
 Parti libéral du Québec,2023,926,Lac-Saint-Jean,100,1,1,0,100,0,0,0,2023-05-05
 Parti libéral du Québec,2023,930,Roberval,20,1,1,0,20,0,0,0,2023-05-05
-Parti québécois,2023,104,Mégantic,1395,18,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,110,Saint-François,1612,21,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,116,Sherbrooke,4795,59,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,120,Orford,3105,41,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,126,Johnson,1640,24,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,132,Richmond,2149.99,28,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,138,Drummond-Bois-Francs,2115,26,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,144,Arthabaska,1720,20,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,150,Nicolet-Bécancour,3065,39,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,204,Brome-Missisquoi,2535,30,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,206,Granby,1465,18,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,210,Iberville,762,14,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,212,Saint-Jean,2890,39,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,216,Huntingdon,435,6,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,218,Beauharnois,1735,24,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,220,Soulanges,890,17,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,224,Vaudreuil,1568,19,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,226,Châteauguay,760,10,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,230,Sanguinet,460,7,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,232,La Prairie,1790,22,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,236,La Pinière,1715,23,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,238,Chambly,1410,20,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,240,Vachon,1655,22,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,244,Laporte,1845,24,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,246,Marie-Victorin,3995,51,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,250,Taillon,5610,68,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,252,Montarville,4085,50,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,256,Verchères,2843.2,36,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,258,Borduas,4240,58,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,260,Saint-Hyacinthe,3085,47,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,264,Richelieu,1690,28,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,300,Verdun,1945,22,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,304,Marguerite-Bourgeoys,1410,15,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,306,Marquette,477,7,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,310,Jacques-Cartier,725,9,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,312,Nelligan,345,5,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti québécois,2023,104,Mégantic,1395,18,15,3,1270,125,0.16666666666666666,0.08960573476702509,2023-05-05
+Parti québécois,2023,110,Saint-François,1612,21,16,5,1300,312,0.23809523809523808,0.1935483870967742,2023-05-05
+Parti québécois,2023,116,Sherbrooke,4795,59,46,13,3765,1030,0.22033898305084745,0.21480709071949947,2023-05-05
+Parti québécois,2023,120,Orford,3105,41,30,11,2335,770,0.2682926829268293,0.24798711755233493,2023-05-05
+Parti québécois,2023,126,Johnson,1640,24,22,2,1595,45,0.08333333333333333,0.027439024390243903,2023-05-05
+Parti québécois,2023,132,Richmond,2149.99,28,25,3,2019.99,130,0.10714285714285714,0.060465397513476814,2023-05-05
+Parti québécois,2023,138,Drummond-Bois-Francs,2115,26,24,2,1915,200,0.07692307692307693,0.09456264775413711,2023-05-05
+Parti québécois,2023,144,Arthabaska,1720,20,16,4,1455,265,0.2,0.15406976744186046,2023-05-05
+Parti québécois,2023,150,Nicolet-Bécancour,3065,39,34,5,2695,370,0.1282051282051282,0.12071778140293637,2023-05-05
+Parti québécois,2023,204,Brome-Missisquoi,2535,30,25,5,2175,360,0.16666666666666666,0.14201183431952663,2023-05-05
+Parti québécois,2023,206,Granby,1465,18,13,5,1015,450,0.2777777777777778,0.30716723549488056,2023-05-05
+Parti québécois,2023,210,Iberville,762,14,13,1,760,2,0.07142857142857142,0.0026246719160104987,2023-05-05
+Parti québécois,2023,212,Saint-Jean,2890,39,32,7,2360,530,0.1794871794871795,0.18339100346020762,2023-05-05
+Parti québécois,2023,216,Huntingdon,435,6,5,1,410,25,0.16666666666666666,0.05747126436781609,2023-05-05
+Parti québécois,2023,218,Beauharnois,1735,24,19,5,1465,270,0.20833333333333334,0.15561959654178675,2023-05-05
+Parti québécois,2023,220,Soulanges,890,17,13,4,640,250,0.23529411764705882,0.2808988764044944,2023-05-05
+Parti québécois,2023,224,Vaudreuil,1568,19,15,4,1248,320,0.21052631578947367,0.20408163265306123,2023-05-05
+Parti québécois,2023,226,Châteauguay,760,10,9,1,660,100,0.1,0.13157894736842105,2023-05-05
+Parti québécois,2023,230,Sanguinet,460,7,6,1,360,100,0.14285714285714285,0.21739130434782608,2023-05-05
+Parti québécois,2023,232,La Prairie,1790,22,18,4,1540,250,0.18181818181818182,0.13966480446927373,2023-05-05
+Parti québécois,2023,236,La Pinière,1715,23,17,6,1190,525,0.2608695652173913,0.30612244897959184,2023-05-05
+Parti québécois,2023,238,Chambly,1410,20,15,5,1095,315,0.25,0.22340425531914893,2023-05-05
+Parti québécois,2023,240,Vachon,1655,22,17,5,1390,265,0.22727272727272727,0.16012084592145015,2023-05-05
+Parti québécois,2023,244,Laporte,1845,24,20,4,1590,255,0.16666666666666666,0.13821138211382114,2023-05-05
+Parti québécois,2023,246,Marie-Victorin,3995,51,47,4,3790,205,0.0784313725490196,0.051314142678347933,2023-05-05
+Parti québécois,2023,250,Taillon,5610,68,59,9,4905,705,0.1323529411764706,0.12566844919786097,2023-05-05
+Parti québécois,2023,252,Montarville,4085,50,49,1,3985,100,0.02,0.02447980416156671,2023-05-05
+Parti québécois,2023,256,Verchères,2843.2,36,32,4,2518.2,325,0.1111111111111111,0.11430782217220034,2023-05-05
+Parti québécois,2023,258,Borduas,4240,58,48,10,3875,365,0.1724137931034483,0.08608490566037735,2023-05-05
+Parti québécois,2023,260,Saint-Hyacinthe,3085,47,42,5,2850,235,0.10638297872340426,0.07617504051863858,2023-05-05
+Parti québécois,2023,264,Richelieu,1690,28,20,8,1310,380,0.2857142857142857,0.22485207100591717,2023-05-05
+Parti québécois,2023,300,Verdun,1945,22,19,3,1645,300,0.13636363636363635,0.15424164524421594,2023-05-05
+Parti québécois,2023,304,Marguerite-Bourgeoys,1410,15,14,1,1310,100,0.06666666666666667,0.07092198581560284,2023-05-05
+Parti québécois,2023,306,Marquette,477,7,5,2,375,102,0.2857142857142857,0.2138364779874214,2023-05-05
+Parti québécois,2023,310,Jacques-Cartier,725,9,7,2,525,200,0.2222222222222222,0.27586206896551724,2023-05-05
+Parti québécois,2023,312,Nelligan,345,5,4,1,245,100,0.2,0.2898550724637681,2023-05-05
 Parti québécois,2023,316,Robert-Baldwin,300,3,3,0,300,0,0,0,2023-05-05
-Parti québécois,2023,318,Saint-Laurent,950,10,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,320,D'Arcy-McGee,225,3,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti québécois,2023,318,Saint-Laurent,950,10,9,1,850,100,0.1,0.10526315789473684,2023-05-05
+Parti québécois,2023,320,D'Arcy-McGee,225,3,2,1,200,25,0.3333333333333333,0.1111111111111111,2023-05-05
 Parti québécois,2023,324,Notre-Dame-de-Grâce,1050,11,11,0,1050,0,0,0,2023-05-05
-Parti québécois,2023,326,Saint-Henri-Sainte-Anne,3965,30,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,330,Sainte-Marie-Saint-Jacques,5306.64,63,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,332,Westmount-Saint-Louis,730,12,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,336,Mont-Royal-Outremont,2900,36,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,338,Acadie,3890,50,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,340,Maurice-Richard,3410,47,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,344,Laurier-Dorion,2050,23,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,346,Gouin,3454.99,46,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,350,Mercier,3245,39,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,352,Hochelaga-Maisonneuve,1865,24,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,356,Rosemont,3645,46,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,358,Viau,865,12,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,360,Bourassa-Sauvé,815,11,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,364,Jeanne-Mance-Viger,550,6,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,366,Anjou-Louis-Riel,2280,31,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,370,Camille-Laurin,4925,61,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,380,Pointe-aux-Trembles,1494.99,20,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,390,LaFontaine,650,9,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,454,Laval-des-Rapides,1765,27,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,460,Chomedey,2090,28,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,466,Fabre,1225,17,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,470,Sainte-Rose,2620,36,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,476,Vimont,1290,16,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,482,Mille-Îles,1870,27,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,502,Groulx,2330,26,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,508,Deux-Montagnes,1255,18,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,514,Mirabel,1075,16,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,520,Argenteuil,1050,15,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,526,Saint-Jérôme,3715,49,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,530,Les Plaines,1055,19,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,536,Blainville,1174,13,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,542,Terrebonne,1430,24,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,548,Masson,1430,19,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,554,L'Assomption,1510,19,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,560,Repentigny,3140.5,40,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,566,Berthier,3040,39,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,570,Joliette,3255,40,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,576,Rousseau,1840,21,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,582,Prévost,1385,18,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,588,Bertrand,2139,27,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,594,Labelle,2185,31,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,602,Hull,3130,39,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,608,Pontiac,1050,13,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,614,Gatineau,2000,26,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,620,Chapleau,1170,14,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,626,Papineau,2030,25,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,636,Rouyn-Noranda-Témiscamingue,2490,30,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,642,Abitibi-Ouest,1292,19,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,648,Abitibi-Est,1120,15,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,660,Trois-Rivières,3299,40,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,666,Maskinongé,1995,26,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,670,Laviolette-Saint-Maurice,3052,42,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti québécois,2023,326,Saint-Henri-Sainte-Anne,3965,30,25,5,3345,620,0.16666666666666666,0.15636822194199243,2023-05-05
+Parti québécois,2023,330,Sainte-Marie-Saint-Jacques,5306.64,63,54,9,4766.64,540,0.14285714285714285,0.10175930532314233,2023-05-05
+Parti québécois,2023,332,Westmount-Saint-Louis,730,12,9,3,555,175,0.25,0.23972602739726026,2023-05-05
+Parti québécois,2023,336,Mont-Royal-Outremont,2900,36,30,6,2425,475,0.16666666666666666,0.16379310344827586,2023-05-05
+Parti québécois,2023,338,Acadie,3890,50,43,7,3315,575,0.14,0.14781491002570693,2023-05-05
+Parti québécois,2023,340,Maurice-Richard,3410,47,38,9,2760,650,0.19148936170212766,0.1906158357771261,2023-05-05
+Parti québécois,2023,344,Laurier-Dorion,2050,23,22,1,1950,100,0.043478260869565216,0.04878048780487805,2023-05-05
+Parti québécois,2023,346,Gouin,3454.99,46,38,8,2974.99,480,0.17391304347826086,0.13892949038926308,2023-05-05
+Parti québécois,2023,350,Mercier,3245,39,33,6,2875,370,0.15384615384615385,0.1140215716486903,2023-05-05
+Parti québécois,2023,352,Hochelaga-Maisonneuve,1865,24,20,4,1580,285,0.16666666666666666,0.15281501340482573,2023-05-05
+Parti québécois,2023,356,Rosemont,3645,46,40,6,3270,375,0.13043478260869565,0.102880658436214,2023-05-05
+Parti québécois,2023,358,Viau,865,12,10,2,780,85,0.16666666666666666,0.09826589595375723,2023-05-05
+Parti québécois,2023,360,Bourassa-Sauvé,815,11,9,2,665,150,0.18181818181818182,0.18404907975460122,2023-05-05
+Parti québécois,2023,364,Jeanne-Mance-Viger,550,6,5,1,450,100,0.16666666666666666,0.18181818181818182,2023-05-05
+Parti québécois,2023,366,Anjou-Louis-Riel,2280,31,28,3,2110,170,0.0967741935483871,0.07456140350877193,2023-05-05
+Parti québécois,2023,370,Camille-Laurin,4925,61,56,5,4595,330,0.08196721311475409,0.06700507614213198,2023-05-05
+Parti québécois,2023,380,Pointe-aux-Trembles,1494.99,20,18,2,1389.99,105,0.1,0.0702345835089198,2023-05-05
+Parti québécois,2023,390,LaFontaine,650,9,6,3,425,225,0.3333333333333333,0.34615384615384615,2023-05-05
+Parti québécois,2023,454,Laval-des-Rapides,1765,27,22,5,1430,335,0.18518518518518517,0.18980169971671387,2023-05-05
+Parti québécois,2023,460,Chomedey,2090,28,25,3,2030,60,0.10714285714285714,0.028708133971291867,2023-05-05
+Parti québécois,2023,466,Fabre,1225,17,14,3,1025,200,0.17647058823529413,0.16326530612244897,2023-05-05
+Parti québécois,2023,470,Sainte-Rose,2620,36,34,2,2420,200,0.05555555555555555,0.07633587786259542,2023-05-05
+Parti québécois,2023,476,Vimont,1290,16,15,1,1190,100,0.0625,0.07751937984496124,2023-05-05
+Parti québécois,2023,482,Mille-Îles,1870,27,25,2,1800,70,0.07407407407407407,0.0374331550802139,2023-05-05
+Parti québécois,2023,502,Groulx,2330,26,24,2,2130,200,0.07692307692307693,0.08583690987124463,2023-05-05
+Parti québécois,2023,508,Deux-Montagnes,1255,18,14,4,1050,205,0.2222222222222222,0.16334661354581673,2023-05-05
+Parti québécois,2023,514,Mirabel,1075,16,14,2,895,180,0.125,0.16744186046511628,2023-05-05
+Parti québécois,2023,520,Argenteuil,1050,15,12,3,910,140,0.2,0.13333333333333333,2023-05-05
+Parti québécois,2023,526,Saint-Jérôme,3715,49,37,12,3070,645,0.24489795918367346,0.17362045760430686,2023-05-05
+Parti québécois,2023,530,Les Plaines,1055,19,17,2,1000,55,0.10526315789473684,0.052132701421800945,2023-05-05
+Parti québécois,2023,536,Blainville,1174,13,10,3,899,275,0.23076923076923078,0.2342419080068143,2023-05-05
+Parti québécois,2023,542,Terrebonne,1430,24,21,3,1330,100,0.125,0.06993006993006994,2023-05-05
+Parti québécois,2023,548,Masson,1430,19,17,2,1305,125,0.10526315789473684,0.08741258741258741,2023-05-05
+Parti québécois,2023,554,L'Assomption,1510,19,15,4,1200,310,0.21052631578947367,0.2052980132450331,2023-05-05
+Parti québécois,2023,560,Repentigny,3140.5,40,34,6,2885,255.5,0.15,0.08135647189937908,2023-05-05
+Parti québécois,2023,566,Berthier,3040,39,32,7,2595,445,0.1794871794871795,0.14638157894736842,2023-05-05
+Parti québécois,2023,570,Joliette,3255,40,31,9,2630,625,0.225,0.19201228878648233,2023-05-05
+Parti québécois,2023,576,Rousseau,1840,21,17,4,1500,340,0.19047619047619047,0.18478260869565216,2023-05-05
+Parti québécois,2023,582,Prévost,1385,18,15,3,1160,225,0.16666666666666666,0.1624548736462094,2023-05-05
+Parti québécois,2023,588,Bertrand,2139,27,24,3,1989,150,0.1111111111111111,0.07012622720897616,2023-05-05
+Parti québécois,2023,594,Labelle,2185,31,26,5,1825,360,0.16129032258064516,0.16475972540045766,2023-05-05
+Parti québécois,2023,602,Hull,3130,39,36,3,2955,175,0.07692307692307693,0.05591054313099041,2023-05-05
+Parti québécois,2023,608,Pontiac,1050,13,9,4,730,320,0.3076923076923077,0.3047619047619048,2023-05-05
+Parti québécois,2023,614,Gatineau,2000,26,21,5,1680,320,0.19230769230769232,0.16,2023-05-05
+Parti québécois,2023,620,Chapleau,1170,14,13,1,1070,100,0.07142857142857142,0.08547008547008547,2023-05-05
+Parti québécois,2023,626,Papineau,2030,25,20,5,1650,380,0.2,0.18719211822660098,2023-05-05
+Parti québécois,2023,636,Rouyn-Noranda-Témiscamingue,2490,30,25,5,2250,240,0.16666666666666666,0.0963855421686747,2023-05-05
+Parti québécois,2023,642,Abitibi-Ouest,1292,19,17,2,1182,110,0.10526315789473684,0.08513931888544891,2023-05-05
+Parti québécois,2023,648,Abitibi-Est,1120,15,10,5,795,325,0.3333333333333333,0.29017857142857145,2023-05-05
+Parti québécois,2023,660,Trois-Rivières,3299,40,31,9,2614,685,0.225,0.2076386783873901,2023-05-05
+Parti québécois,2023,666,Maskinongé,1995,26,21,5,1520,475,0.19230769230769232,0.23809523809523808,2023-05-05
+Parti québécois,2023,670,Laviolette-Saint-Maurice,3052,42,38,4,2812,240,0.09523809523809523,0.07863695937090433,2023-05-05
 Parti québécois,2023,676,Champlain,2395,30,30,0,2395,0,0,0,2023-05-05
-Parti québécois,2023,702,Jean-Talon,8618,112,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,708,Louis-Hébert,4677,55,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,714,Portneuf,1275,20,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,720,La Peltrie,1225,17,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,726,Vanier-Les Rivières,1475,22,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,730,Taschereau,9692,120,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,736,Jean-Lesage,2735,34,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,742,Montmorency,985,15,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,748,Charlesbourg,2088.99,35,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,754,Chauveau,2170,26,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,760,Charlevoix-Côte-de-Beaupré,3408,50,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,802,Beauce-Sud,850,10,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,806,Beauce-Nord,675,12,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,810,Lotbinière-Frontenac,1830,24,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,814,Chutes-de-la-Chaudière,2120,26,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,818,Lévis,2930,38,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,822,Bellechasse,1550,18,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,826,Côte-du-Sud,1505,21,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,834,Rivière-du-Loup-Témiscouata,1410,21,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,838,Rimouski,2855,41,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,842,Matane-Matapédia,6725,95,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,850,Bonaventure,2155,33,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,854,Gaspé,1883.32,25,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti québécois,2023,702,Jean-Talon,8618,112,97,15,7648,970,0.13392857142857142,0.11255511719656533,2023-05-05
+Parti québécois,2023,708,Louis-Hébert,4677,55,52,3,4575,102,0.05454545454545454,0.021808851828094934,2023-05-05
+Parti québécois,2023,714,Portneuf,1275,20,18,2,1205,70,0.1,0.054901960784313725,2023-05-05
+Parti québécois,2023,720,La Peltrie,1225,17,16,1,1175,50,0.058823529411764705,0.04081632653061224,2023-05-05
+Parti québécois,2023,726,Vanier-Les Rivières,1475,22,16,6,1150,325,0.2727272727272727,0.22033898305084745,2023-05-05
+Parti québécois,2023,730,Taschereau,9692,120,101,19,8455,1237,0.15833333333333333,0.12763103590590177,2023-05-05
+Parti québécois,2023,736,Jean-Lesage,2735,34,27,7,2420,315,0.20588235294117646,0.11517367458866545,2023-05-05
+Parti québécois,2023,742,Montmorency,985,15,13,2,835,150,0.13333333333333333,0.15228426395939088,2023-05-05
+Parti québécois,2023,748,Charlesbourg,2088.99,35,33,2,1913.99,175,0.05714285714285714,0.08377254079722737,2023-05-05
+Parti québécois,2023,754,Chauveau,2170,26,22,4,1895,275,0.15384615384615385,0.12672811059907835,2023-05-05
+Parti québécois,2023,760,Charlevoix-Côte-de-Beaupré,3408,50,47,3,3183,225,0.06,0.06602112676056338,2023-05-05
+Parti québécois,2023,802,Beauce-Sud,850,10,9,1,810,40,0.1,0.047058823529411764,2023-05-05
+Parti québécois,2023,806,Beauce-Nord,675,12,9,3,450,225,0.25,0.3333333333333333,2023-05-05
+Parti québécois,2023,810,Lotbinière-Frontenac,1830,24,19,5,1525,305,0.20833333333333334,0.16666666666666666,2023-05-05
+Parti québécois,2023,814,Chutes-de-la-Chaudière,2120,26,21,5,1925,195,0.19230769230769232,0.09198113207547169,2023-05-05
+Parti québécois,2023,818,Lévis,2930,38,32,6,2510,420,0.15789473684210525,0.14334470989761092,2023-05-05
+Parti québécois,2023,822,Bellechasse,1550,18,17,1,1450,100,0.05555555555555555,0.06451612903225806,2023-05-05
+Parti québécois,2023,826,Côte-du-Sud,1505,21,15,6,1145,360,0.2857142857142857,0.23920265780730898,2023-05-05
+Parti québécois,2023,834,Rivière-du-Loup-Témiscouata,1410,21,18,3,1260,150,0.14285714285714285,0.10638297872340426,2023-05-05
+Parti québécois,2023,838,Rimouski,2855,41,32,9,2255,600,0.21951219512195122,0.21015761821366025,2023-05-05
+Parti québécois,2023,842,Matane-Matapédia,6725,95,68,27,5340,1385,0.28421052631578947,0.20594795539033459,2023-05-05
+Parti québécois,2023,850,Bonaventure,2155,33,30,3,2055,100,0.09090909090909091,0.04640371229698376,2023-05-05
+Parti québécois,2023,854,Gaspé,1883.32,25,21,4,1623.32,260,0.16,0.13805407471911307,2023-05-05
 Parti québécois,2023,858,Îles-de-la-Madeleine,920,10,10,0,920,0,0,0,2023-05-05
-Parti québécois,2023,902,Duplessis,1150,14,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,906,René-Lévesque,1350,19,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,914,Dubuc,985,16,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,918,Chicoutimi,2139.98,33,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,922,Jonquière,1460,22,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,926,Lac-Saint-Jean,1145,18,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,930,Roberval,1104.99,19,NA,NA,NA,NA,NA,NA,2023-05-05
-Parti québécois,2023,938,Ungava,215,6,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,104,Mégantic,600,8,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,110,Saint-François,938.32,14,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,116,Sherbrooke,2341.65,26,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,120,Orford,1100,15,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,126,Johnson,425,5,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,132,Richmond,1204.97,16,NA,NA,NA,NA,NA,NA,2023-05-05
+Parti québécois,2023,902,Duplessis,1150,14,11,3,930,220,0.21428571428571427,0.19130434782608696,2023-05-05
+Parti québécois,2023,906,René-Lévesque,1350,19,16,3,1125,225,0.15789473684210525,0.16666666666666666,2023-05-05
+Parti québécois,2023,914,Dubuc,985,16,12,4,785,200,0.25,0.20304568527918782,2023-05-05
+Parti québécois,2023,918,Chicoutimi,2139.98,33,30,3,1994.98,145,0.09090909090909091,0.0677576425947906,2023-05-05
+Parti québécois,2023,922,Jonquière,1460,22,18,4,1185,275,0.18181818181818182,0.18835616438356165,2023-05-05
+Parti québécois,2023,926,Lac-Saint-Jean,1145,18,14,4,995,150,0.2222222222222222,0.13100436681222707,2023-05-05
+Parti québécois,2023,930,Roberval,1104.99,19,18,1,1094.99,10,0.05263157894736842,0.009049855654802305,2023-05-05
+Parti québécois,2023,938,Ungava,215,6,4,2,165,50,0.3333333333333333,0.23255813953488372,2023-05-05
+Québec solidaire,2023,104,Mégantic,600,8,7,1,575,25,0.125,0.041666666666666664,2023-05-05
+Québec solidaire,2023,110,Saint-François,938.32,14,11,3,875,63.32,0.21428571428571427,0.06748230880722994,2023-05-05
+Québec solidaire,2023,116,Sherbrooke,2341.65,26,23,3,2041.65,300,0.11538461538461539,0.12811479085260394,2023-05-05
+Québec solidaire,2023,120,Orford,1100,15,10,5,750,350,0.3333333333333333,0.3181818181818182,2023-05-05
+Québec solidaire,2023,126,Johnson,425,5,4,1,325,100,0.2,0.23529411764705882,2023-05-05
+Québec solidaire,2023,132,Richmond,1204.97,16,13,3,979.97,225,0.1875,0.18672664049727378,2023-05-05
 Québec solidaire,2023,138,Drummond-Bois-Francs,191.63,4,4,0,191.63,0,0,0,2023-05-05
 Québec solidaire,2023,144,Arthabaska,616.63,9,9,0,616.63,0,0,0,2023-05-05
-Québec solidaire,2023,150,Nicolet-Bécancour,150,3,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,204,Brome-Missisquoi,1033.29,14,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,206,Granby,366.31,6,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,210,Iberville,444.99,6,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,150,Nicolet-Bécancour,150,3,2,1,125,25,0.3333333333333333,0.16666666666666666,2023-05-05
+Québec solidaire,2023,204,Brome-Missisquoi,1033.29,14,13,1,933.29,100,0.07142857142857142,0.09677825199121254,2023-05-05
+Québec solidaire,2023,206,Granby,366.31,6,4,2,258.31,108,0.3333333333333333,0.2948322459119325,2023-05-05
+Québec solidaire,2023,210,Iberville,444.99,6,5,1,344.99,100,0.16666666666666666,0.2247241511045192,2023-05-05
 Québec solidaire,2023,212,Saint-Jean,400,4,4,0,400,0,0,0,2023-05-05
-Québec solidaire,2023,216,Huntingdon,249.99,4,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,216,Huntingdon,249.99,4,3,1,224.99,25,0.25,0.10000400016000639,2023-05-05
 Québec solidaire,2023,218,Beauharnois,199.96,4,4,0,199.96,0,0,0,2023-05-05
 Québec solidaire,2023,220,Soulanges,125,2,2,0,125,0,0,0,2023-05-05
 Québec solidaire,2023,224,Vaudreuil,75,1,1,0,75,0,0,0,2023-05-05
 Québec solidaire,2023,226,Châteauguay,325,4,4,0,325,0,0,0,2023-05-05
 Québec solidaire,2023,230,Sanguinet,124.99,2,2,0,124.99,0,0,0,2023-05-05
 Québec solidaire,2023,236,La Pinière,130,2,2,0,130,0,0,0,2023-05-05
-Québec solidaire,2023,238,Chambly,155,4,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,238,Chambly,155,4,2,2,120,35,0.5,0.22580645161290322,2023-05-05
 Québec solidaire,2023,240,Vachon,374,5,5,0,374,0,0,0,2023-05-05
 Québec solidaire,2023,244,Laporte,624.98,9,9,0,624.98,0,0,0,2023-05-05
 Québec solidaire,2023,246,Marie-Victorin,1056.6,17,17,0,1056.6,0,0,0,2023-05-05
-Québec solidaire,2023,250,Taillon,1191.61,17,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,252,Montarville,284.99,5,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,256,Verchères,683.32,8,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,258,Borduas,874.99,11,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,250,Taillon,1191.61,17,16,1,1141.61,50,0.058823529411764705,0.04196003726051309,2023-05-05
+Québec solidaire,2023,252,Montarville,284.99,5,4,1,234.99,50,0.2,0.17544475244745428,2023-05-05
+Québec solidaire,2023,256,Verchères,683.32,8,7,1,633.32,50,0.125,0.07317215945676989,2023-05-05
+Québec solidaire,2023,258,Borduas,874.99,11,10,1,849.99,25,0.09090909090909091,0.028571755105772638,2023-05-05
 Québec solidaire,2023,260,Saint-Hyacinthe,600,6,6,0,600,0,0,0,2023-05-05
 Québec solidaire,2023,264,Richelieu,33.32,1,1,0,33.32,0,0,0,2023-05-05
-Québec solidaire,2023,300,Verdun,2494.96,31,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,304,Marguerite-Bourgeoys,450,5,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,300,Verdun,2494.96,31,28,3,2344.96,150,0.0967741935483871,0.060121204347965494,2023-05-05
+Québec solidaire,2023,304,Marguerite-Bourgeoys,450,5,4,1,350,100,0.2,0.2222222222222222,2023-05-05
 Québec solidaire,2023,306,Marquette,200,2,2,0,200,0,0,0,2023-05-05
 Québec solidaire,2023,310,Jacques-Cartier,10,1,1,0,10,0,0,0,2023-05-05
 Québec solidaire,2023,312,Nelligan,50,1,1,0,50,0,0,0,2023-05-05
-Québec solidaire,2023,318,Saint-Laurent,220,3,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,318,Saint-Laurent,220,3,2,1,120,100,0.3333333333333333,0.45454545454545453,2023-05-05
 Québec solidaire,2023,320,D'Arcy-McGee,120,2,2,0,120,0,0,0,2023-05-05
-Québec solidaire,2023,324,Notre-Dame-de-Grâce,269.99,7,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,326,Saint-Henri-Sainte-Anne,3899.99,33,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,330,Sainte-Marie-Saint-Jacques,3541.56,47,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,332,Westmount-Saint-Louis,725,8,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,336,Mont-Royal-Outremont,1044.99,13,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,338,Acadie,698.32,10,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,340,Maurice-Richard,3163.29,38,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,344,Laurier-Dorion,3163.25,50,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,346,Gouin,3772.98,54,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,350,Mercier,3584.55,48,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,352,Hochelaga-Maisonneuve,2715.54,43,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,356,Rosemont,2836.03,39,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,324,Notre-Dame-de-Grâce,269.99,7,3,4,94.99,175,0.5714285714285714,0.6481721545242416,2023-05-05
+Québec solidaire,2023,326,Saint-Henri-Sainte-Anne,3899.99,33,25,8,3149.99,750,0.24242424242424243,0.19230818540560363,2023-05-05
+Québec solidaire,2023,330,Sainte-Marie-Saint-Jacques,3541.56,47,43,4,3216.56,325,0.0851063829787234,0.09176746970261693,2023-05-05
+Québec solidaire,2023,332,Westmount-Saint-Louis,725,8,4,4,400,325,0.5,0.4482758620689655,2023-05-05
+Québec solidaire,2023,336,Mont-Royal-Outremont,1044.99,13,12,1,944.99,100,0.07692307692307693,0.09569469564302051,2023-05-05
+Québec solidaire,2023,338,Acadie,698.32,10,9,1,673.32,25,0.1,0.035800206209187765,2023-05-05
+Québec solidaire,2023,340,Maurice-Richard,3163.29,38,34,4,2773.29,390,0.10526315789473684,0.12328936012822093,2023-05-05
+Québec solidaire,2023,344,Laurier-Dorion,3163.25,50,41,9,2743.25,420,0.18,0.132774836007271,2023-05-05
+Québec solidaire,2023,346,Gouin,3772.98,54,48,6,3297.98,475,0.1111111111111111,0.1258951809975139,2023-05-05
+Québec solidaire,2023,350,Mercier,3584.55,48,40,8,2859.55,725,0.16666666666666666,0.2022569081195687,2023-05-05
+Québec solidaire,2023,352,Hochelaga-Maisonneuve,2715.54,43,38,5,2490.54,225,0.11627906976744186,0.08285644844119401,2023-05-05
+Québec solidaire,2023,356,Rosemont,2836.03,39,32,7,2276.03,560,0.1794871794871795,0.19745912419826306,2023-05-05
 Québec solidaire,2023,358,Viau,944.99,11,11,0,944.99,0,0,0,2023-05-05
 Québec solidaire,2023,360,Bourassa-Sauvé,495,5,5,0,495,0,0,0,2023-05-05
 Québec solidaire,2023,364,Jeanne-Mance-Viger,33.32,1,1,0,33.32,0,0,0,2023-05-05
-Québec solidaire,2023,366,Anjou-Louis-Riel,574.99,8,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,366,Anjou-Louis-Riel,574.99,8,7,1,474.99,100,0.125,0.17391606810553226,2023-05-05
 Québec solidaire,2023,370,Camille-Laurin,1133.32,12,12,0,1133.32,0,0,0,2023-05-05
 Québec solidaire,2023,380,Pointe-aux-Trembles,250,3,3,0,250,0,0,0,2023-05-05
 Québec solidaire,2023,390,LaFontaine,20,1,1,0,20,0,0,0,2023-05-05
 Québec solidaire,2023,454,Laval-des-Rapides,458.32,9,9,0,458.32,0,0,0,2023-05-05
-Québec solidaire,2023,460,Chomedey,432,5,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,460,Chomedey,432,5,3,2,232,200,0.4,0.46296296296296297,2023-05-05
 Québec solidaire,2023,466,Fabre,100,1,1,0,100,0,0,0,2023-05-05
-Québec solidaire,2023,470,Sainte-Rose,55,2,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,476,Vimont,400,4,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,470,Sainte-Rose,55,2,1,1,30,25,0.5,0.45454545454545453,2023-05-05
+Québec solidaire,2023,476,Vimont,400,4,3,1,300,100,0.25,0.25,2023-05-05
 Québec solidaire,2023,482,Mille-Îles,233.32,3,3,0,233.32,0,0,0,2023-05-05
 Québec solidaire,2023,502,Groulx,320,4,4,0,320,0,0,0,2023-05-05
-Québec solidaire,2023,508,Deux-Montagnes,274.99,4,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,508,Deux-Montagnes,274.99,4,3,1,174.99,100,0.25,0.36364958725771845,2023-05-05
 Québec solidaire,2023,514,Mirabel,125,2,2,0,125,0,0,0,2023-05-05
 Québec solidaire,2023,520,Argenteuil,274,4,4,0,274,0,0,0,2023-05-05
 Québec solidaire,2023,526,Saint-Jérôme,475,6,6,0,475,0,0,0,2023-05-05
-Québec solidaire,2023,530,Les Plaines,100,1,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,536,Blainville,449.99,6,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,542,Terrebonne,182,3,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,548,Masson,177,4,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,554,L'Assomption,341.63,6,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,560,Repentigny,163.32,3,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,530,Les Plaines,100,1,0,1,0,100,1,1,2023-05-05
+Québec solidaire,2023,536,Blainville,449.99,6,3,3,224.99,225,0.5,0.5000111113580301,2023-05-05
+Québec solidaire,2023,542,Terrebonne,182,3,2,1,132,50,0.3333333333333333,0.27472527472527475,2023-05-05
+Québec solidaire,2023,548,Masson,177,4,2,2,150,27,0.5,0.15254237288135594,2023-05-05
+Québec solidaire,2023,554,L'Assomption,341.63,6,5,1,241.63,100,0.16666666666666666,0.29271434007552033,2023-05-05
+Québec solidaire,2023,560,Repentigny,163.32,3,1,2,33.32,130,0.6666666666666666,0.795983345579231,2023-05-05
 Québec solidaire,2023,566,Berthier,519.98,10,10,0,519.98,0,0,0,2023-05-05
 Québec solidaire,2023,570,Joliette,384.64,8,8,0,384.64,0,0,0,2023-05-05
-Québec solidaire,2023,576,Rousseau,54.989999999999995,2,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,582,Prévost,85,1,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,588,Bertrand,858.31,12,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,576,Rousseau,54.989999999999995,2,1,1,24.99,30,0.5,0.5455537370430988,2023-05-05
+Québec solidaire,2023,582,Prévost,85,1,0,1,0,85,1,1,2023-05-05
+Québec solidaire,2023,588,Bertrand,858.31,12,7,5,498.31,360,0.4166666666666667,0.4194288776782282,2023-05-05
 Québec solidaire,2023,594,Labelle,394.95,8,8,0,394.95,0,0,0,2023-05-05
-Québec solidaire,2023,602,Hull,1332.07,16,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,602,Hull,1332.07,16,14,2,1182.07,150,0.125,0.1126066948433641,2023-05-05
 Québec solidaire,2023,608,Pontiac,808.31,10,10,0,808.31,0,0,0,2023-05-05
 Québec solidaire,2023,614,Gatineau,200,2,2,0,200,0,0,0,2023-05-05
 Québec solidaire,2023,620,Chapleau,83.32,2,2,0,83.32,0,0,0,2023-05-05
 Québec solidaire,2023,626,Papineau,358.29,8,8,0,358.29,0,0,0,2023-05-05
-Québec solidaire,2023,636,Rouyn-Noranda-Témiscamingue,1521.62,21,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,636,Rouyn-Noranda-Témiscamingue,1521.62,21,19,2,1466.62,55,0.09523809523809523,0.03614568683376927,2023-05-05
 Québec solidaire,2023,642,Abitibi-Ouest,250,3,3,0,250,0,0,0,2023-05-05
 Québec solidaire,2023,648,Abitibi-Est,200,2,2,0,200,0,0,0,2023-05-05
-Québec solidaire,2023,660,Trois-Rivières,1063.27,18,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,666,Maskinongé,566.64,7,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,660,Trois-Rivières,1063.27,18,17,1,1053.27,10,0.05555555555555555,0.009404948884102815,2023-05-05
+Québec solidaire,2023,666,Maskinongé,566.64,7,6,1,466.64,100,0.14285714285714285,0.17647889312438234,2023-05-05
 Québec solidaire,2023,670,Laviolette-Saint-Maurice,158.32,3,3,0,158.32,0,0,0,2023-05-05
-Québec solidaire,2023,676,Champlain,438.3,8,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,702,Jean-Talon,922,12,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,708,Louis-Hébert,759.99,10,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,676,Champlain,438.3,8,7,1,338.3,100,0.125,0.22815423226100845,2023-05-05
+Québec solidaire,2023,702,Jean-Talon,922,12,11,1,872,50,0.08333333333333333,0.05422993492407809,2023-05-05
+Québec solidaire,2023,708,Louis-Hébert,759.99,10,7,3,539.99,220,0.3,0.28947749312490956,2023-05-05
 Québec solidaire,2023,714,Portneuf,300,3,3,0,300,0,0,0,2023-05-05
 Québec solidaire,2023,720,La Peltrie,158.32,3,3,0,158.32,0,0,0,2023-05-05
-Québec solidaire,2023,726,Vanier-Les Rivières,531.66,7,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,730,Taschereau,4302.02,63,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,736,Jean-Lesage,2589.83,38,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,726,Vanier-Les Rivières,531.66,7,5,2,331.66,200,0.2857142857142857,0.3761802655832675,2023-05-05
+Québec solidaire,2023,730,Taschereau,4302.02,63,52,11,3544.52,757.5,0.1746031746031746,0.1760800740117433,2023-05-05
+Québec solidaire,2023,736,Jean-Lesage,2589.83,38,33,5,2393.27,196.56,0.13157894736842105,0.07589687353996208,2023-05-05
 Québec solidaire,2023,742,Montmorency,149.98,4,4,0,149.98,0,0,0,2023-05-05
-Québec solidaire,2023,748,Charlesbourg,644,10,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,760,Charlevoix-Côte-de-Beaupré,283.31,7,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,748,Charlesbourg,644,10,7,3,419,225,0.3,0.34937888198757766,2023-05-05
+Québec solidaire,2023,760,Charlevoix-Côte-de-Beaupré,283.31,7,6,1,258.31,25,0.14285714285714285,0.08824256115209488,2023-05-05
 Québec solidaire,2023,802,Beauce-Sud,225,3,3,0,225,0,0,0,2023-05-05
 Québec solidaire,2023,806,Beauce-Nord,24.99,1,1,0,24.99,0,0,0,2023-05-05
-Québec solidaire,2023,810,Lotbinière-Frontenac,549.99,7,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,814,Chutes-de-la-Chaudière,125,2,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,810,Lotbinière-Frontenac,549.99,7,5,2,424.99,125,0.2857142857142857,0.22727685957926508,2023-05-05
+Québec solidaire,2023,814,Chutes-de-la-Chaudière,125,2,1,1,100,25,0.5,0.2,2023-05-05
 Québec solidaire,2023,818,Lévis,483.32,7,7,0,483.32,0,0,0,2023-05-05
 Québec solidaire,2023,826,Côte-du-Sud,249.98,4,4,0,249.98,0,0,0,2023-05-05
-Québec solidaire,2023,834,Rivière-du-Loup-Témiscouata,349.98,7,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,838,Rimouski,999.98,13,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,842,Matane-Matapédia,324.99,4,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,834,Rivière-du-Loup-Témiscouata,349.98,7,6,1,249.98,100,0.14285714285714285,0.2857306131778959,2023-05-05
+Québec solidaire,2023,838,Rimouski,999.98,13,10,3,749.98,250,0.23076923076923078,0.250005000100002,2023-05-05
+Québec solidaire,2023,842,Matane-Matapédia,324.99,4,3,1,224.99,100,0.25,0.30770177543924426,2023-05-05
 Québec solidaire,2023,850,Bonaventure,390,6,6,0,390,0,0,0,2023-05-05
-Québec solidaire,2023,854,Gaspé,716.62,13,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,854,Gaspé,716.62,13,10,3,491.62,225,0.23076923076923078,0.31397393318634703,2023-05-05
 Québec solidaire,2023,858,Îles-de-la-Madeleine,24.99,1,1,0,24.99,0,0,0,2023-05-05
-Québec solidaire,2023,902,Duplessis,199.99,4,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,914,Dubuc,250,3,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,902,Duplessis,199.99,4,2,2,124.99,75,0.5,0.3750187509375469,2023-05-05
+Québec solidaire,2023,914,Dubuc,250,3,2,1,200,50,0.3333333333333333,0.2,2023-05-05
 Québec solidaire,2023,918,Chicoutimi,666.63,10,10,0,666.63,0,0,0,2023-05-05
 Québec solidaire,2023,926,Lac-Saint-Jean,273.31,5,5,0,273.31,0,0,0,2023-05-05
-Québec solidaire,2023,930,Roberval,264.99,6,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,938,Ungava,100,1,NA,NA,NA,NA,NA,NA,2023-05-05
-Québec solidaire,2023,NA,NA,200,2,NA,NA,NA,NA,NA,NA,2023-05-05
+Québec solidaire,2023,930,Roberval,264.99,6,5,1,173.32,91.67,0.16666666666666666,0.3459375825502849,2023-05-05
+Québec solidaire,2023,938,Ungava,100,1,0,1,0,100,1,1,2023-05-05
+Québec solidaire,2023,NA,NA,200,2,0,2,0,200,1,1,2023-05-05

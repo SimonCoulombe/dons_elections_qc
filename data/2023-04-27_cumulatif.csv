@@ -1,6 +1,6 @@
-entite_politique,annee_financiere,montant_cumulatif,date_cumulatif
-Coalition avenir Québec,2023,217596.57,2023-04-27
-Parti conservateur du Québec,2023,19504.45,2023-04-27
-Parti libéral du Québec,2023,46343.95,2023-04-27
-Parti québécois,2023,253564.26,2023-04-27
-Québec solidaire,2023,83400.78,2023-04-27
+entite_politique,annee_financiere,montant_cumulatif,donateurs,anciens_donateurs,nouveaux_donateurs,cumulatif_anciens,cumulatif_nouveaux,pct_nouveaux_donateurs,pct_cumulatif_nouveaux,date_cumulatif
+Coalition avenir Québec,2023,217596.57,2502,1937,565,171490,46106.57,0.2258193445243805,0.21189015065816524,2023-04-27
+Parti conservateur du Québec,2023,19504.45,254,194,60,15390.22,4114.23,0.23622047244094488,0.21093801670900741,2023-04-27
+Parti libéral du Québec,2023,46343.95,573,439,134,35627.95,10716,0.2338568935427574,0.23122759281416455,2023-04-27
+Parti québécois,2023,253564.26,3298,2804,494,221418.76,32145.5,0.14978775015160703,0.12677456988615035,2023-04-27
+Québec solidaire,2023,83400.78,1163,999,164,72125.06,11275.72,0.1410146173688736,0.13519921516321548,2023-04-27

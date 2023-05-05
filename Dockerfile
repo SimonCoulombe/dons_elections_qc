@@ -1,4 +1,4 @@
-FROM rocker/r-base:latest
+FROM rocker/geospatial:latest
 
 RUN apt-get update && apt-get install -y \
     git \
@@ -14,6 +14,8 @@ RUN R -e 'install.packages(c("purrr"))'
 RUN R -e 'install.packages(c("ggplot2"))'
 RUN R -e 'install.packages(c("rtweet"))'
 RUN R -e 'install.packages(c("glue"))'
+RUN R -e 'install.packages(c("gt"))'
+RUN R -e 'install.packages(c("webshot2"))'
 
 CMD ["/bin/bash"]
 

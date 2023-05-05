@@ -76,18 +76,43 @@ generate_cumulatif <- function(mydate){
   
   wrangled_file <- contributions %>% left_join(code_postal_to_circ_slice1)
   
+  anciens_donateurs <- wrangled_file %>% 
+    filter(annee_financiere < max(annee_financiere)) %>% 
+    select(nom_prenom, entite_politique, code_postal) %>% 
+    distinct() %>%
+    mutate(ancien_donateur = 1)
+  
   cumulatif <- 
     wrangled_file %>% 
     filter(annee_financiere>= 2023) %>% 
+    left_join(anciens_donateurs) %>%
+    mutate(ancien_donateur = as.numeric(!is.na(ancien_donateur))) %>%
     group_by(entite_politique, annee_financiere) %>% 
-    summarise(montant_cumulatif = sum(montant_total)) %>% 
+    summarise(montant_cumulatif = sum(montant_total), 
+              donateurs = n(), 
+              anciens_donateurs =  sum(ancien_donateur), 
+              nouveaux_donateurs = sum(ancien_donateur ==0), 
+              cumulatif_anciens = sum(montant_total * ancien_donateur),
+              cumulatif_nouveaux = sum(montant_total * (ancien_donateur==0)),
+              pct_nouveaux_donateurs= nouveaux_donateurs / donateurs,
+              pct_cumulatif_nouveaux = cumulatif_nouveaux/ montant_cumulatif
+    ) %>% 
     ungroup() %>%
     mutate(date_cumulatif = lubridate::ymd(mydate))
   
   cumulatif_circ <-   wrangled_file %>% 
     filter(annee_financiere>= 2023) %>% 
+    left_join(anciens_donateurs) %>%    
     group_by(entite_politique, annee_financiere,  co_circ, nm_circ) %>% 
-    summarise(montant_cumulatif = sum(montant_total)) %>% 
+    summarise(montant_cumulatif = sum(montant_total), 
+              donateurs = n(), 
+              anciens_donateurs =  sum(ancien_donateur), 
+              nouveaux_donateurs = sum(ancien_donateur ==0), 
+              cumulatif_anciens = sum(montant_total * ancien_donateur),
+              cumulatif_nouveaux = sum(montant_total * (ancien_donateur==0)),
+              pct_nouveaux_donateurs= nouveaux_donateurs / donateurs,
+              pct_cumulatif_nouveaux = cumulatif_nouveaux/ montant_cumulatif
+    ) %>% 
     ungroup() %>%
     mutate(date_cumulatif = lubridate::ymd(mydate))
   
@@ -95,13 +120,15 @@ generate_cumulatif <- function(mydate){
   write_csv(cumulatif_circ, cumulatif_circ_path)
   
   list_cumulatifs <- list.files("data/", pattern= "*cumulatif.csv")
-  cumulatifs_quotidiens <- dplyr::bind_rows(purrr::map(list_cumulatifs,   ~readr::read_csv(paste0("data/",.x)))) %>%
+  cumulatifs_quotidiens <- 
+    dplyr::bind_rows(purrr::map(list_cumulatifs,   ~readr::read_csv(paste0("data/",.x)))) %>%
     arrange(desc(date_cumulatif), entite_politique)
   write_csv(cumulatifs_quotidiens, "data/cumulatif_quotidiens.csv")
   
   
   list_cumulatifs_circ <- list.files("data/", pattern= "*cumulatif_circ.csv")
-  cumulatifs_circ_quotidiens <- dplyr::bind_rows(purrr::map(list_cumulatifs_circ,   ~readr::read_csv(paste0("data/",.x))))%>%
+  cumulatifs_circ_quotidiens <- 
+    dplyr::bind_rows(purrr::map(list_cumulatifs_circ,   ~readr::read_csv(paste0("data/",.x))))%>%
     arrange(desc(date_cumulatif), entite_politique)
   write_csv(cumulatifs_circ_quotidiens, "data/cumulatifs_circ_quotidiens.csv")
   

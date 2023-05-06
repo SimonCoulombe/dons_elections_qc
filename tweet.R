@@ -127,8 +127,8 @@ mat %>%
       fn= "sum", label = "Total sortants")
     ,
     fmt = ~ fmt_integer(.)
-  )# %>%
-  #gtsave(. , "data/matrice_od.png")
+  ) %>%
+  gtsave(. , "data/plot_matrice_od.png")
 
 
 
@@ -144,10 +144,13 @@ mytweet2 <- paste0("Nombre de donateurs au ", date_last," (première fois à ce 
                    tweetable_text2)
 
 
-mytweet3 <- paste0("Nombre de transfuges 2022-2023 au ", date_last, "\n\n(un transfuge donne à un seul parti en 2022 et 2023 et a changé entre 2022 et 2023)")
+mytweet3 <- paste0("Nombre de transfuges 2022-2023 au ", 
+                   date_last,
+                   "\n\n(un transfuge donne à un seul parti en 2022 et 2023 et a changé entre 2022 et 2023)\n",
+                   "#polqc #assnat")
 
-# # Create a pretty ggplot
-myplot <- cumulatif_quotidiens %>%
+# # Create a pretty ggplot cumulatifs 
+plot_dons <- cumulatif_quotidiens %>%
   ggplot(aes(x = date_cumulatif, y = montant_cumulatif, color = entite_politique)) +
   geom_line(linewidth = 1) +
   geom_point() + 
@@ -167,64 +170,109 @@ myplot <- cumulatif_quotidiens %>%
   )
 
 
-ggsave("data/myplot.png", myplot, width= 10, height = 8, units ="in", bg = "white")
+ggsave("data/plot_dons.png", plot_dons, width= 10, height = 8, units ="in", bg = "white")
+
+
+# # Create a pretty ggplot donateurs
+plot_donateurs <- cumulatif_quotidiens %>%
+  ggplot(aes(x = date_cumulatif, y = donateurs, color = entite_politique)) +
+  geom_line(linewidth = 1) +
+  geom_point() + 
+  scale_y_continuous(limits = c(0, max(cumulatif_quotidiens$donateurs))) +
+  scale_colour_manual(values = couleurs_parti_prov) +
+  labs(title = "Nombre de donateurs",
+       x = "Date",
+       y = "Nombre de donateurs",
+       color = "Parti") +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 18, face = "bold", hjust = 0.5),
+    axis.title = element_text(size = 14, face = "bold"),
+    axis.text = element_text(size = 12),
+    legend.title = element_text(size = 14, face = "bold"),
+    legend.text = element_text(size = 12)
+  )
+
+
+ggsave("data/plot_donateurs.png", plot_donateurs, width= 10, height = 8, units ="in", bg = "white")
+
+
+
+
 
 post_tweet(status =  mytweet1,
-           media = c("data/myplot.png"),
-           media_alt_text = c("")
+           media = c("data/plot_donateurs.png"),
+           media_alt_text = c("graphique montrant l'évoluation du nombre de dons au cours de l'année"),
+)
+# 
+# 
+# premier_tweet_de_la_thread <-  get_timeline("DonsElectionsQC") %>% filter(str_detect(text, "Cumulatif")) %>% head(1)
+# 
+
+Sys.sleep(5)
+post_tweet(status =  mytweet2,
+           media = c("data/plot_dons.png"),
+           media_alt_text = c("graphique montrant l'évoluation du nombre de donateurs au cours de l'année"),
+           token = NULL,
+           in_reply_to_status_id = get_timeline("DonsElectionsQC") %>% 
+             arrange(desc(created_at)) %>%
+             pull(id) %>% .[1]
 )
 
 
 
-
-
-
-
-premier_tweet_de_la_thread <-  get_timeline("covid_coulsim") %>% filter(str_detect(text, "covid")) %>% head(1)
-
-
-
-post_tweet(
-  status = paste0("RÉGIONS 2/10 covid\n" ,
-                  intToUtf8(0x1F4C8), "\n",
-                  "Cas par million par région\n",
-                  "Hospit par million par région\n",
-                  "Décès par million par région\n",
-                  "Tests par million par région\n"
-  ),
-  
-  media = c(
-    "~/git/adhoc_prive/covid19_PNG/quebec_cases_by_pop.png",
-    "~/git/adhoc_prive/covid19_PNG/quebec_new_hospit_par_region.png",
-    "~/git/adhoc_prive/covid19_PNG/quebec_deces_par_region.png",
-    "~/git/adhoc_prive/covid19_PNG/quebec_tests_par_region.png"
-  ),
-  token = NULL,
-  in_reply_to_status_id = get_timeline("covid_coulsim") %>% arrange(desc(created_at)) %>% filter(str_detect(text, "covid")) %>% pull(status_id) %>% .[1],
-  destroy_id = NULL,
-  retweet_id = NULL,
-  auto_populate_reply_metadata = FALSE
+Sys.sleep(5)
+post_tweet(status =  mytweet3,
+           media = c("data/plot_matrice_od.png"),
+           media_alt_text = c("matrice origine-destination des donateurs des partis entre 2022 et 2023"),
+           token = NULL,
+           in_reply_to_status_id = get_timeline("DonsElectionsQC") %>% 
+             arrange(desc(created_at)) %>%
+             pull(id) %>% .[1]
 )
 
 
 
-post_tweet(
-  status = paste0("ÂGE 3A/10 covid\n" ,
-                  "Cas par million par groupe d'âge\n",
-                  "Hospit par million par groupe d'âge\n",
-                  "Décès par million par groupe d'âge\n",
-                  "Tests par million par groupe d'âge"
-  ),
-  
-  media = c(
-    "~/git/adhoc_prive/covid19_PNG/quebec_age.png",
-    "~/git/adhoc_prive/covid19_PNG/quebec_new_hospit_par_age.png",
-    "~/git/adhoc_prive/covid19_PNG/quebec_deces_par_age.png",
-    "~/git/adhoc_prive/covid19_PNG/quebec_tests_par_age.png"
-  ),
-  token = NULL,
-  in_reply_to_status_id = get_timeline("covid_coulsim") %>% arrange(desc(created_at)) %>% filter(str_detect(text, "covid")) %>% pull(status_id) %>% .[1],
-  destroy_id = NULL,
-  retweet_id = NULL,
-  auto_populate_reply_metadata = FALSE
-)
+# 
+# post_tweet(
+#   status = paste0("RÉGIONS 2/10 covid\n" ,
+#                   intToUtf8(0x1F4C8), "\n",
+#                   "Cas par million par région\n",
+#                   "Hospit par million par région\n",
+#                   "Décès par million par région\n",
+#                   "Tests par million par région\n"
+#   ),
+#   
+#   media = c(
+#     "~/git/adhoc_prive/covid19_PNG/quebec_cases_by_pop.png",
+#     "~/git/adhoc_prive/covid19_PNG/quebec_new_hospit_par_region.png",
+#     "~/git/adhoc_prive/covid19_PNG/quebec_deces_par_region.png",
+#     "~/git/adhoc_prive/covid19_PNG/quebec_tests_par_region.png"
+#   ),
+#   token = NULL,
+#   in_reply_to_status_id = get_timeline("covid_coulsim") %>% arrange(desc(created_at)) %>% filter(str_detect(text, "covid")) %>% pull(status_id) %>% .[1],
+#   destroy_id = NULL,
+#   retweet_id = NULL,
+#   auto_populate_reply_metadata = FALSE
+# )
+# 
+# post_tweet(
+#   status = paste0("ÂGE 3A/10 covid\n" ,
+#                   "Cas par million par groupe d'âge\n",
+#                   "Hospit par million par groupe d'âge\n",
+#                   "Décès par million par groupe d'âge\n",
+#                   "Tests par million par groupe d'âge"
+#   ),
+#   
+#   media = c(
+#     "~/git/adhoc_prive/covid19_PNG/quebec_age.png",
+#     "~/git/adhoc_prive/covid19_PNG/quebec_new_hospit_par_age.png",
+#     "~/git/adhoc_prive/covid19_PNG/quebec_deces_par_age.png",
+#     "~/git/adhoc_prive/covid19_PNG/quebec_tests_par_age.png"
+#   ),
+#   token = NULL,
+#   in_reply_to_status_id = get_timeline("covid_coulsim") %>% arrange(desc(created_at)) %>% filter(str_detect(text, "covid")) %>% pull(status_id) %>% .[1],
+#   destroy_id = NULL,
+#   retweet_id = NULL,
+#   auto_populate_reply_metadata = FALSE
+# )

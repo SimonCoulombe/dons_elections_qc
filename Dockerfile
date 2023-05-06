@@ -17,5 +17,6 @@ RUN R -e 'install.packages(c("glue"))'
 RUN R -e 'install.packages(c("gt"))'
 RUN R -e 'install.packages(c("webshot2"))'
 
-CMD ["/bin/bash"]
+#CMD ["/bin/bash"]
+CMD ["/init"]
 

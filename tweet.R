@@ -7,7 +7,8 @@ library(glue)
 library(tidyr)
 library(stringr)
 library(ggplot2)
-
+library(gt)
+library(webshot2)
 ggplot2::theme_set(theme_minimal()) # this ggplot2 theme uses roboto condensed font, which works well with the font used for the whole document.
 options(ggplot2.discrete.fill  = function() scale_fill_viridis_d() )
 options(ggplot2.continuous.fill  = function() scale_fill_viridis_c())

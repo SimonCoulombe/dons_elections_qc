@@ -9,6 +9,8 @@ library(stringr)
 library(ggplot2)
 library(gt)
 library(webshot2)
+library(gtExtras)
+
 ggplot2::theme_set(theme_minimal()) # this ggplot2 theme uses roboto condensed font, which works well with the font used for the whole document.
 options(ggplot2.discrete.fill  = function() scale_fill_viridis_d() )
 options(ggplot2.continuous.fill  = function() scale_fill_viridis_c())
@@ -67,6 +69,11 @@ all_data <- latest_data %>%
          diff_hier = round(diff_hier),
          diff_lastweek = round(diff_lastweek)) 
 
+
+  
+  
+
+
 # Convert data frame to a tweetable text
 tweetable_text1 <- all_data %>%
   arrange(desc(montant_cumulatif)) %>% 
@@ -84,11 +91,91 @@ tweetable_text2 <- all_data %>%
   paste(collapse = "\n")
 
 # données transfuges  
-transfuges_summary <- read_csv("data/transfuges_summary.csv")
+transfuges_summary <- read_csv("data/transfuges_summary.csv") %>% 
+  filter(date== max(date))%>% 
+  rename(arrivees = transfuges_entrants, departs = transfuges_sortants) %>%
+  mutate( solde = arrivees - departs) 
+
 last_date_transfuge <- max(transfuges_summary$date)
 last_transfuges <- transfuges_summary %>% filter(date ==last_date_transfuge)
 
 transfuges_od <- read_csv(paste0("data/",last_date_transfuge,"_transfuges_od.csv"))
+
+tweet3_data  <- transfuges_summary %>%
+  select(-date) %>% 
+  arrange(desc(solde)) %>%
+  mutate(entite_politique = 
+           case_when(
+             entite_politique=="Québec solidaire"~ "QS",
+             entite_politique=="Parti québécois" ~ "PQ",
+             entite_politique=="Coalition avenir Québec" ~ "CAQ",
+             entite_politique=="Parti conservateur du Québec"~ "PCQ",
+             entite_politique=="Parti libéral du Québec" ~ "PLQ"
+           )
+  )
+
+
+
+
+super_tableau <- latest_data %>%  
+  left_join(transfuges_summary %>% select(-date)) %>% 
+  select(-annee_financiere, - date_cumulatif) %>% 
+  select( -pct_cumulatif_nouveaux) %>% 
+  arrange(desc(montant_cumulatif) )%>% 
+  select(entite_politique,
+         montant_cumulatif,  diff_hier, diff_semaine,
+         donateurs,
+         nouveaux_donateurs, anciens_donateurs, pct_nouveaux_donateurs, 
+         cumulatif_nouveaux, cumulatif_anciens, 
+         everything()) %>% 
+  gt(caption = glue::glue("Statistiques des dons aux parti politiques québécois au {date_last}")) %>%
+  gt_theme_538() %>% 
+  fmt_currency(
+    columns = c("montant_cumulatif", "diff_hier", "diff_semaine", "cumulatif_anciens", "cumulatif_nouveaux" , "diff_hier", "diff_semaine") , 
+    decimals = 0 ,
+    placement= "right",
+    sep_mark = " ") %>%
+  fmt_integer(
+    columns = c("donateurs", "anciens_donateurs", "nouveaux_donateurs"), sep_mark =" ")%>%
+  fmt_percent(
+    columns = c("pct_nouveaux_donateurs"), decimals= 1) %>%
+  tab_spanner(label = "donateurs transfuges", 
+              columns = c("arrivees", "departs", "solde")) %>%
+  tab_spanner(label = "Cumulatif des dons", 
+              columns = c("montant_cumulatif", "diff_hier", "diff_semaine")) %>%
+  tab_spanner(label = "Dons accumulé par les donateurs", 
+              columns = c("cumulatif_nouveaux", "cumulatif_anciens")) %>%
+  tab_spanner(label = "Donateurs", 
+              columns = c("donateurs", "nouveaux_donateurs", "anciens_donateurs", "pct_nouveaux_donateurs")) %>%  
+  cols_label(
+    diff_hier = "depuis hier",
+    diff_semaine = "depuis 1 semaine",
+    entite_politique = "parti",
+    montant_cumulatif = "Total",
+    donateurs = "Total",
+    nouveaux_donateurs = "nouveaux",
+    anciens_donateurs = "anciens",
+    pct_nouveaux_donateurs = "Pourcentage de nouveaux",
+    cumulatif_anciens = "anciens",
+    cumulatif_nouveaux = "nouveaux"
+  ) %>%
+  tab_source_note("data @ElectionsQuebec, calculs @Coulsim")
+
+
+super_tableau %>% 
+  gtsave(. , "data/plot_super_tableau.png", vwidth = 1680)
+
+tweetable_text3 <- tweet3_data %>% 
+  mutate_all(as.character) %>% 
+  glue_data("{stringr::str_pad(entite_politique, width=3 , side = 'right')}",
+            " {str_pad(arrivees,3, 'left')}",
+            "-{str_pad(departs,3, 'left')}",
+            "={str_pad(solde,3, 'left')}"
+  ) %>%
+  paste(collapse = "\n")
+
+
+
 
 
 mat <- transfuges_od %>% 
@@ -114,23 +201,30 @@ mat <- transfuges_od %>%
   arrange(entite_politique, parti_origine) %>%
   pivot_wider(names_from= parti_origine, values_from =n, values_fill = 0) %>%
   select(entite_politique, order(colnames(.) ))%>% 
-  mutate("total_entrants" = PCQ + PLQ+ PQ +CAQ + QS)
+  mutate("total_arrivées" = PCQ + PLQ+ PQ +CAQ + QS)
 
 mat %>% 
   gt(caption= "Matrice Origine-Destination des donateurs 2022-2023",
      rowname_col = "entite_politique")  %>% 
-  
-      grand_summary_rows(
-        columns = where(is.numeric),
-        
+  grand_summary_rows(
+    columns = where(is.numeric),
     fns = list(
-      fn= "sum", label = "Total sortants")
-    ,
+      fn= "sum", label = "Total départs"),
     fmt = ~ fmt_integer(.)
   ) %>%
   gtsave(. , "data/plot_matrice_od.png")
 
-
+# 
+# tweet3_data %>%
+#   gt(caption = "Solde migratoire des donateurs transfuges 2022-2023",
+#      rowname_col = "entite_politique")%>% 
+#   grand_summary_rows(
+#     columns = where(is.numeric),
+#     fns = list(
+#       fn= "sum", label = "Total"),
+#     fmt = ~ fmt_integer(.)
+#   ) %>%
+#   gtsave(. , "data/plot_summary_transfuges.png")
 
 
 # Print the tweetable_text
@@ -145,8 +239,10 @@ mytweet2 <- paste0("Nombre de donateurs au ", date_last," (première fois à ce 
 
 
 mytweet3 <- paste0("Nombre de transfuges 2022-2023 au ", 
-                   date_last,
-                   "\n\n(un transfuge donne à un seul parti en 2022 et 2023 et a changé entre 2022 et 2023)\n",
+                   date_last, "\n",
+                   "Parti Entrants Sortants Solde\n",
+                   tweetable_text3,
+                   "\n(un transfuge donne à un parti par année en 2022 et 2023 et a changé entre 2022 et 2023)\n",
                    "#polqc #assnat")
 
 # # Create a pretty ggplot cumulatifs 
@@ -201,8 +297,8 @@ ggsave("data/plot_donateurs.png", plot_donateurs, width= 10, height = 8, units =
 
 
 post_tweet(status =  mytweet1,
-           media = c("data/plot_donateurs.png"),
-           media_alt_text = c("graphique montrant l'évoluation du nombre de dons au cours de l'année"),
+           media = c("data/plot_donateurs.png", "data/plot_super_tableau.png"),
+           media_alt_text = c("graphique montrant l'évoluation du nombre de dons au cours de l'année", "prout"),
 )
 # 
 # 
@@ -232,47 +328,3 @@ post_tweet(status =  mytweet3,
 )
 
 
-
-# 
-# post_tweet(
-#   status = paste0("RÉGIONS 2/10 covid\n" ,
-#                   intToUtf8(0x1F4C8), "\n",
-#                   "Cas par million par région\n",
-#                   "Hospit par million par région\n",
-#                   "Décès par million par région\n",
-#                   "Tests par million par région\n"
-#   ),
-#   
-#   media = c(
-#     "~/git/adhoc_prive/covid19_PNG/quebec_cases_by_pop.png",
-#     "~/git/adhoc_prive/covid19_PNG/quebec_new_hospit_par_region.png",
-#     "~/git/adhoc_prive/covid19_PNG/quebec_deces_par_region.png",
-#     "~/git/adhoc_prive/covid19_PNG/quebec_tests_par_region.png"
-#   ),
-#   token = NULL,
-#   in_reply_to_status_id = get_timeline("covid_coulsim") %>% arrange(desc(created_at)) %>% filter(str_detect(text, "covid")) %>% pull(status_id) %>% .[1],
-#   destroy_id = NULL,
-#   retweet_id = NULL,
-#   auto_populate_reply_metadata = FALSE
-# )
-# 
-# post_tweet(
-#   status = paste0("ÂGE 3A/10 covid\n" ,
-#                   "Cas par million par groupe d'âge\n",
-#                   "Hospit par million par groupe d'âge\n",
-#                   "Décès par million par groupe d'âge\n",
-#                   "Tests par million par groupe d'âge"
-#   ),
-#   
-#   media = c(
-#     "~/git/adhoc_prive/covid19_PNG/quebec_age.png",
-#     "~/git/adhoc_prive/covid19_PNG/quebec_new_hospit_par_age.png",
-#     "~/git/adhoc_prive/covid19_PNG/quebec_deces_par_age.png",
-#     "~/git/adhoc_prive/covid19_PNG/quebec_tests_par_age.png"
-#   ),
-#   token = NULL,
-#   in_reply_to_status_id = get_timeline("covid_coulsim") %>% arrange(desc(created_at)) %>% filter(str_detect(text, "covid")) %>% pull(status_id) %>% .[1],
-#   destroy_id = NULL,
-#   retweet_id = NULL,
-#   auto_populate_reply_metadata = FALSE
-# )

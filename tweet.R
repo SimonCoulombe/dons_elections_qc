@@ -297,7 +297,7 @@ ggsave("data/plot_donateurs.png", plot_donateurs, width= 10, height = 8, units =
 
 
 post_tweet(status =  mytweet1,
-           media = c("data/plot_donateurs.png", "data/plot_super_tableau.png"),
+           media = c("data/plot_dons.png", "data/plot_super_tableau.png"),
            media_alt_text = c("graphique montrant l'évoluation du nombre de dons au cours de l'année", "prout"),
 )
 # 
@@ -307,7 +307,7 @@ post_tweet(status =  mytweet1,
 
 Sys.sleep(5)
 post_tweet(status =  mytweet2,
-           media = c("data/plot_dons.png"),
+           media = c("data/plot_donateurs.png"),
            media_alt_text = c("graphique montrant l'évoluation du nombre de donateurs au cours de l'année"),
            token = NULL,
            in_reply_to_status_id = get_timeline("DonsElectionsQC") %>% 

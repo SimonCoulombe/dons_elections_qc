@@ -305,7 +305,7 @@ post_tweet(status =  mytweet1,
 # premier_tweet_de_la_thread <-  get_timeline("DonsElectionsQC") %>% filter(str_detect(text, "Cumulatif")) %>% head(1)
 # 
 
-Sys.sleep(5)
+Sys.sleep(60)
 post_tweet(status =  mytweet2,
            media = c("data/plot_donateurs.png"),
            media_alt_text = c("graphique montrant l'évoluation du nombre de donateurs au cours de l'année"),
@@ -317,7 +317,7 @@ post_tweet(status =  mytweet2,
 
 
 
-Sys.sleep(5)
+Sys.sleep(60)
 post_tweet(status =  mytweet3,
            media = c("data/plot_matrice_od.png"),
            media_alt_text = c("matrice origine-destination des donateurs des partis entre 2022 et 2023"),

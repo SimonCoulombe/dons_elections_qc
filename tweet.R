@@ -228,22 +228,22 @@ mat %>%
 
 
 # Print the tweetable_text
-mytweet1 <- paste0("Cumulatif ", date_last," (différence ",jours_hier, " jour/", jours_lastweek, "jours)"   ,
+mytweet1 <- stringr::str_sub(paste0("Cumulatif ", date_last," (différence ",jours_hier, " jour/", jours_lastweek, "jours)"   ,
                    "\n\n", 
-                   tweetable_text1)
+                   tweetable_text1), 1, 276)
 
 
-mytweet2 <- paste0("Nombre de donateurs au ", date_last," (première fois à ce parti/% première fois)"   ,
+mytweet2 <- stringr::str_sub(paste0("Nombre de donateurs au ", date_last," (première fois à ce parti/% première fois)"   ,
                    "\n\n", 
-                   tweetable_text2)
+                   tweetable_text2), 1, 276)
 
 
-mytweet3 <- paste0("Nombre de transfuges 2022-2023 au ", 
+mytweet3 <- stringr::str_sub(paste0("Nombre de transfuges 2022-2023 au ", 
                    date_last, "\n",
                    "Parti Entrants Sortants Solde\n",
                    tweetable_text3,
                    "\n(un transfuge donne à un parti par année en 2022 et 2023 et a changé entre 2022 et 2023)\n",
-                   "#polqc #assnat")
+                   "#polqc #assnat"),1, 276)
 
 # # Create a pretty ggplot cumulatifs 
 plot_dons <- cumulatif_quotidiens %>%

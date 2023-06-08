@@ -1,0 +1,15 @@
+entite_politique,parti_origine,n,date
+Coalition avenir Québec,Parti conservateur du Québec,1,2023-06-08
+Coalition avenir Québec,Parti libéral du Québec,16,2023-06-08
+Coalition avenir Québec,Parti québécois,11,2023-06-08
+Coalition avenir Québec,Québec solidaire,2,2023-06-08
+Parti conservateur du Québec,Coalition avenir Québec,2,2023-06-08
+Parti conservateur du Québec,Québec solidaire,1,2023-06-08
+Parti libéral du Québec,Coalition avenir Québec,4,2023-06-08
+Parti libéral du Québec,Parti conservateur du Québec,1,2023-06-08
+Parti libéral du Québec,Parti québécois,1,2023-06-08
+Parti libéral du Québec,Québec solidaire,1,2023-06-08
+Parti québécois,Coalition avenir Québec,13,2023-06-08
+Parti québécois,Parti conservateur du Québec,4,2023-06-08
+Parti québécois,Québec solidaire,8,2023-06-08
+Québec solidaire,Coalition avenir Québec,1,2023-06-08

@@ -29,14 +29,14 @@ couleurs_parti_prov <- c(
 )
 
 
-bot <- rtweet_bot(
-  api_key = Sys.getenv("perroquetdejeff_api_key"),
-  api_secret = Sys.getenv("perroquetdejeff_api_secret_key"),
-  access_token = Sys.getenv("perroquetdejeff_access_token"),
-  access_secret = Sys.getenv("perroquetdejeff_access_token_secret")
-)
+#bot <- rtweet_bot(
+  #api_key = Sys.getenv("perroquetdejeff_api_key"),
+ # api_secret = Sys.getenv("perroquetdejeff_api_secret_key"),
+ # access_token = Sys.getenv("perroquetdejeff_access_token"),
+ # access_secret = Sys.getenv("perroquetdejeff_access_token_secret")
+#)
 
-auth_as(bot)
+#auth_as(bot)
 
 
 #mytempfile <- tempfile()
@@ -296,35 +296,35 @@ ggsave("data/plot_donateurs.png", plot_donateurs, width= 10, height = 8, units =
 
 
 
-post_tweet(status =  mytweet1,
-           media = c("data/plot_dons.png", "data/plot_super_tableau.png"),
-           media_alt_text = c("graphique montrant l'évoluation du nombre de dons au cours de l'année", "prout"),
-)
+#post_tweet(status =  mytweet1,
+          # media = c("data/plot_dons.png", "data/plot_super_tableau.png"),
+        #   media_alt_text = c("graphique montrant l'évoluation du nombre de dons au cours de l'année", "prout"),
+#)
 # 
 # 
 # premier_tweet_de_la_thread <-  get_timeline("DonsElectionsQC") %>% filter(str_detect(text, "Cumulatif")) %>% head(1)
 # 
 
-Sys.sleep(60)
-post_tweet(status =  mytweet2,
-           media = c("data/plot_donateurs.png"),
-           media_alt_text = c("graphique montrant l'évoluation du nombre de donateurs au cours de l'année"),
-           token = NULL,
-           in_reply_to_status_id = get_timeline("DonsElectionsQC") %>% 
-             arrange(desc(created_at)) %>%
-             pull(id) %>% .[1]
-)
+#Sys.sleep(60)
+#post_tweet(status =  mytweet2,
+     #      media = c("data/plot_donateurs.png"),
+  #         media_alt_text = c("graphique montrant l'évoluation du nombre de donateurs au cours de l'année"),
+    #       token = NULL,
+   #        in_reply_to_status_id = get_timeline("DonsElectionsQC") %>% 
+     #        arrange(desc(created_at)) %>%
+    #         pull(id) %>% .[1]
+#)
 
 
 
-Sys.sleep(60)
-post_tweet(status =  mytweet3,
-           media = c("data/plot_matrice_od.png"),
-           media_alt_text = c("matrice origine-destination des donateurs des partis entre 2022 et 2023"),
-           token = NULL,
-           in_reply_to_status_id = get_timeline("DonsElectionsQC") %>% 
-             arrange(desc(created_at)) %>%
-             pull(id) %>% .[1]
-)
+#Sys.sleep(60)
+#post_tweet(status =  mytweet3,
+   #        media = c("data/plot_matrice_od.png"),
+   #        media_alt_text = c("matrice origine-destination des donateurs des partis entre 2022 et 2023"),
+   #        token = NULL,
+   #        in_reply_to_status_id = get_timeline("DonsElectionsQC") %>% 
+      #       arrange(desc(created_at)) %>%
+  #           pull(id) %>% .[1]
+#)
 
 

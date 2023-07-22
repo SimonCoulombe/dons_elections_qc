@@ -14,4 +14,5 @@ Another github action generates a few tables and graphs below:
 
 ![alt text](https://github.com/SimonCoulombe/dons_elections_qc/blob/master/data/plot_super_tableau.png?raw=true)  
 
+![alt text](https://github.com/SimonCoulombe/dons_elections_qc/blob/master/data/plot_matrice_od.png?raw=true)  
 

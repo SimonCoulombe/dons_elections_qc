@@ -29,14 +29,14 @@ couleurs_parti_prov <- c(
 )
 
 
-#bot <- rtweet_bot(
-  #api_key = Sys.getenv("perroquetdejeff_api_key"),
- # api_secret = Sys.getenv("perroquetdejeff_api_secret_key"),
- # access_token = Sys.getenv("perroquetdejeff_access_token"),
- # access_secret = Sys.getenv("perroquetdejeff_access_token_secret")
-#)
+bot <- rtweet_bot(
+  api_key = Sys.getenv("perroquetdejeff_api_key"),
+  api_secret = Sys.getenv("perroquetdejeff_api_secret_key"),
+  access_token = Sys.getenv("perroquetdejeff_access_token"),
+  access_secret = Sys.getenv("perroquetdejeff_access_token_secret")
+)
 
-#auth_as(bot)
+auth_as(bot)
 
 
 #mytempfile <- tempfile()
@@ -70,8 +70,8 @@ all_data <- latest_data %>%
          diff_lastweek = round(diff_lastweek)) 
 
 
-  
-  
+
+
 
 
 # Convert data frame to a tweetable text
@@ -214,36 +214,36 @@ mat %>%
   ) %>%
   gtsave(. , "data/plot_matrice_od.png")
 
-# 
-# tweet3_data %>%
-#   gt(caption = "Solde migratoire des donateurs transfuges 2022-2023",
-#      rowname_col = "entite_politique")%>% 
-#   grand_summary_rows(
-#     columns = where(is.numeric),
-#     fns = list(
-#       fn= "sum", label = "Total"),
-#     fmt = ~ fmt_integer(.)
-#   ) %>%
-#   gtsave(. , "data/plot_summary_transfuges.png")
+
+tweet3_data %>%
+  gt(caption = "Solde migratoire des donateurs transfuges 2022-2023",
+     rowname_col = "entite_politique")%>%
+  grand_summary_rows(
+    columns = where(is.numeric),
+    fns = list(
+      fn= "sum", label = "Total"),
+    fmt = ~ fmt_integer(.)
+  ) %>%
+  gtsave(. , "data/plot_summary_transfuges.png")
 
 
 # Print the tweetable_text
 mytweet1 <- stringr::str_sub(paste0("Cumulatif ", date_last," (différence ",jours_hier, " jour/", jours_lastweek, "jours)"   ,
-                   "\n\n", 
-                   tweetable_text1), 1, 276)
+                                    "\n\n", 
+                                    tweetable_text1), 1, 276)
 
 
 mytweet2 <- stringr::str_sub(paste0("Nombre de donateurs au ", date_last," (première fois à ce parti/% première fois)"   ,
-                   "\n\n", 
-                   tweetable_text2), 1, 276)
+                                    "\n\n", 
+                                    tweetable_text2), 1, 276)
 
 
 mytweet3 <- stringr::str_sub(paste0("Nombre de transfuges 2022-2023 au ", 
-                   date_last, "\n",
-                   "Parti Entrants Sortants Solde\n",
-                   tweetable_text3,
-                   "\n(un transfuge donne à un parti par année en 2022 et 2023 et a changé entre 2022 et 2023)\n",
-                   "#polqc #assnat"),1, 276)
+                                    date_last, "\n",
+                                    "Parti Entrants Sortants Solde\n",
+                                    tweetable_text3,
+                                    "\n(un transfuge donne à un parti par année en 2022 et 2023 et a changé entre 2022 et 2023)\n",
+                                    "#polqc #assnat"),1, 276)
 
 # # Create a pretty ggplot cumulatifs 
 plot_dons <- cumulatif_quotidiens %>%
@@ -295,11 +295,11 @@ ggsave("data/plot_donateurs.png", plot_donateurs, width= 10, height = 8, units =
 
 
 
-
-#post_tweet(status =  mytweet1,
-          # media = c("data/plot_dons.png", "data/plot_super_tableau.png"),
-        #   media_alt_text = c("graphique montrant l'évoluation du nombre de dons au cours de l'année", "prout"),
-#)
+# 
+# post_tweet(status =  mytweet1,
+#            media = c("data/plot_dons.png", "data/plot_super_tableau.png"),
+#            media_alt_text = c("graphique montrant l'évoluation du nombre de dons au cours de l'année", "prout"),
+# )
 # 
 # 
 # premier_tweet_de_la_thread <-  get_timeline("DonsElectionsQC") %>% filter(str_detect(text, "Cumulatif")) %>% head(1)
@@ -307,24 +307,24 @@ ggsave("data/plot_donateurs.png", plot_donateurs, width= 10, height = 8, units =
 
 #Sys.sleep(60)
 #post_tweet(status =  mytweet2,
-     #      media = c("data/plot_donateurs.png"),
-  #         media_alt_text = c("graphique montrant l'évoluation du nombre de donateurs au cours de l'année"),
-    #       token = NULL,
-   #        in_reply_to_status_id = get_timeline("DonsElectionsQC") %>% 
-     #        arrange(desc(created_at)) %>%
-    #         pull(id) %>% .[1]
+#      media = c("data/plot_donateurs.png"),
+#         media_alt_text = c("graphique montrant l'évoluation du nombre de donateurs au cours de l'année"),
+#       token = NULL,
+#        in_reply_to_status_id = get_timeline("DonsElectionsQC") %>% 
+#        arrange(desc(created_at)) %>%
+#         pull(id) %>% .[1]
 #)
 
 
 
 #Sys.sleep(60)
 #post_tweet(status =  mytweet3,
-   #        media = c("data/plot_matrice_od.png"),
-   #        media_alt_text = c("matrice origine-destination des donateurs des partis entre 2022 et 2023"),
-   #        token = NULL,
-   #        in_reply_to_status_id = get_timeline("DonsElectionsQC") %>% 
-      #       arrange(desc(created_at)) %>%
-  #           pull(id) %>% .[1]
+#        media = c("data/plot_matrice_od.png"),
+#        media_alt_text = c("matrice origine-destination des donateurs des partis entre 2022 et 2023"),
+#        token = NULL,
+#        in_reply_to_status_id = get_timeline("DonsElectionsQC") %>% 
+#       arrange(desc(created_at)) %>%
+#           pull(id) %>% .[1]
 #)
 
 

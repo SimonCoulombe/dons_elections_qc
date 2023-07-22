@@ -83,15 +83,15 @@ generate_transfuge <- function(wrangled_file){
     filter(n() == 1) %>% 
     ungroup()
   
-  transfuges <-  last2years_1partimax %>% 
+  transfuges <-  last2years_1partimax %>%  # tu es là cette année
     filter(annee_financiere== max(annee_financiere)) %>%
     select(nom_prenom, entite_politique, code_postal, annee_financiere) %>%
-    inner_join(# deja vu quelque part l an passé
+    inner_join(# tu étais là l'an passé
       last2years_1partimax %>% 
         filter(annee_financiere == (max(annee_financiere)-1 )) %>% 
         select(nom_prenom,  code_postal) %>% 
         distinct() 
-    ) %>% #mais pas chez nous
+    ) %>% #mais pa au meme parti
     anti_join(
       last2years_1partimax %>% 
         filter(annee_financiere == (max(annee_financiere))-1) %>% 
@@ -99,14 +99,14 @@ generate_transfuge <- function(wrangled_file){
         distinct() 
     )
   
-  transfuges %>% 
+  transfuges <- transfuges %>% 
     left_join(
       last2years_1partimax %>% 
         filter(annee_financiere == max(annee_financiere)-1 ) %>%
         select(nom_prenom, code_postal, parti_origine = entite_politique)
     )
   
-  
+  return(transfuges)
 }
 
 
@@ -115,7 +115,7 @@ generate_transfuges_origin_destination <- function(transfuges, mydate){
     mutate(date= mydate) %>% 
     count(entite_politique, parti_origine)
   
-  transfuges_origin_destination
+  return(transfuges_origin_destination)
   
 }
 
@@ -129,11 +129,14 @@ generate_transfuges_summary <- function(transfuges,mydate){
     group_by(entite_politique) %>% 
     summarise(transfuges_entrants = sum(n)) %>%
     ungroup() %>%
-    left_join(transfuges_origin_destination %>% 
+    full_join(transfuges_origin_destination %>% 
                 group_by(parti_origine) %>% 
                 summarise(transfuges_sortants = sum(n))%>%
                 ungroup() %>%
-                rename(entite_politique = parti_origine))
+                rename(entite_politique = parti_origine)) %>%
+    tidyr::replace_na(list(transfuges_entrants=0,transfuges_sortants = 0))
+  
+  return(transfuges_summary)
 }
 
 generate_anciens_donateurs <- function(wrangled_file){
@@ -143,7 +146,7 @@ generate_anciens_donateurs <- function(wrangled_file){
     distinct() %>%
     mutate(ancien_donateur = 1)
   
-  anciens_donateurs
+  return(anciens_donateurs)
 }
 
 

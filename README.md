@@ -1,7 +1,12 @@
 # Contributions Pro FR Data Updater
 
-This repository contains a script to download and update the contributions-pro-fr.csv file from https://donnees.electionsquebec.qc.ca/production/provincial/financement/contribution/contributions-pro-fr.csv. The file is renamed with the current date and saved in the data/ folder. A GitHub action is scheduled to run nightly to execute the script and commit the updated file to the repository.
+This repository contains a script to download and update the contributions-pro-fr.csv file from https://donnees.electionsquebec.qc.ca/production/provincial/financement/contribution/contributions-pro-fr.csv. 
 
-## Usage
+The fileCSV  is renamed with the current date and saved in the data/ folder. 
 
-![alt text](https://github.com/simoncoulombe/dons_elections_qc/blob/master/data/myplot.png?raw=true)
+A GitHub action is scheduled to run nightly to execute the script and commit the updated file to the repository.
+Another github action generates a few tables and graphs below:
+
+![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg](https://github.com/SimonCoulombe/dons_elections_qc/blob/master/data/plot_super_tableau.png))?raw=true)
+
+

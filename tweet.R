@@ -1,4 +1,4 @@
-
+#devtools::install_github("ropensci/rtweet")
 library(rtweet)
 library(dplyr)
 library(readr)
@@ -28,20 +28,31 @@ couleurs_parti_prov <- c(
   
 )
 
+# fuckign twitter broke the api.  
+# old code:   ----
 
-bot <- rtweet_bot(
-  api_key = Sys.getenv("perroquetdejeff_api_key"),
-  api_secret = Sys.getenv("perroquetdejeff_api_secret_key"),
-  access_token = Sys.getenv("perroquetdejeff_access_token"),
-  access_secret = Sys.getenv("perroquetdejeff_access_token_secret")
-)
-
-auth_as(bot)
+# bot <- rtweet_bot(
+#   api_key = Sys.getenv("perroquetdejeff_api_key"),
+#   api_secret = Sys.getenv("perroquetdejeff_api_secret_key"),
+#   access_token = Sys.getenv("perroquetdejeff_access_token"),
+#   access_secret = Sys.getenv("perroquetdejeff_access_token_secret")
+# )
 
 
-#mytempfile <- tempfile()
-#download.file("https://raw.githubusercontent.com/SimonCoulombe/dons_elections_qc/master/data/cumulatif_quotidiens.csv", mytempfile)
+# new twitter authentication ----
+# https://stackoverflow.com/questions/76494418/twitter-setup-for-r-rtweet/76742053#76742053
+# https://stackoverflow.com/questions/76544707/problem-with-oauth2-authentication-in-rtweet
+# myauth <- rtweet_oauth2(client = rtweet_client(
+#   client_id = Sys.getenv("perroquetdejeff_clientid"),
+#   client_secret = Sys.getenv("perroquetdejeff_clientsecret"),
+#   app = "monsieur_porc"
+# )
+# )
+# 
+# auth_as(auth = myauth)
 
+
+# let's work ----
 cumulatif_quotidiens <- read_csv("data/cumulatif_quotidiens.csv")
 
 date_last <- max(cumulatif_quotidiens$date_cumulatif)
@@ -292,9 +303,10 @@ plot_donateurs <- cumulatif_quotidiens %>%
 
 ggsave("data/plot_donateurs.png", plot_donateurs, width= 10, height = 8, units ="in", bg = "white")
 
+# test code nouvel api ----
+#tweet_post(mytweet1)
 
-
-
+# ancien code avant changements api ----
 # 
 # post_tweet(status =  mytweet1,
 #            media = c("data/plot_dons.png", "data/plot_super_tableau.png"),

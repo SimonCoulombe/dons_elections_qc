@@ -2,7 +2,7 @@ name: generate tweet et myplot.png
 
 on:
   schedule:
-    - cron: '59 12 * * *'
+#    - cron: '59 12 * * *'
   workflow_dispatch:
 
 jobs:
